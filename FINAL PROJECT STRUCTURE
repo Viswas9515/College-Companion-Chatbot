@@ -1,0 +1,12 @@
+College-Companion-Chatbot/
+ ├── app.py
+ ├── chat.py
+ ├── model.py
+ ├── nltk_utils.py
+ ├── train.py
+ ├── intents.json
+ ├── data.pth
+ ├── templates/
+ │    └── chatbot.html
+ ├── static/
+ └── requirements.txt
