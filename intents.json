@@ -1,0 +1,2794 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey there",
+        "Good to see you here, how can I help you?",
+        "Hello, welcome to the chat",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Tell me about the college?",
+        "What do you know about the college?",
+        "What is the name of the college?"
+      ],
+      "responses": [
+        "Ramachandra College of Engineering (RCE) is an engineering college established in 2008 in Andhra Pradesh, Eluru, India. RCE is affiliated with Jawaharlal Nehru Technological University, Kakinada (JNTUK), accredited by the National Board of Accreditation (NBA) and National Assessment and Accreditation Council (NAAC)."
+      ]
+    },
+    {
+      "tag": "ecap",
+      "patterns": [
+        "What is the ecap portal of college?",
+        "Where can I find student login?",
+        "Where can I pay fee"
+      ],
+      "responses": [
+        "The Ecap portal of RCE is https://www.rcee.ac.in. You'll get more in it"
+      ]
+    },
+
+
+    {
+      "tag": "class_timings",
+      "patterns": [
+        "What are the class timings?",
+        "When do classes start and end?",
+        "Tell me today's class schedule",
+        "Daily class timing"
+      ],
+      "responses": [
+        "Classes usually run from 9 AM to 4 PM, Monday to Friday."
+      ]
+    },
+    {
+      "tag": "exam_schedules",
+      "patterns": [
+        "When are the exams?",
+        "Give me the exam schedule",
+        "Exam dates please",
+        "Tell me about upcoming exams"
+      ],
+      "responses": [
+        "The semester exams start from May 10th. Detailed schedule will be shared on the college website."
+      ]
+    },
+    {
+      "tag": "faculty_contact",
+      "patterns": [
+        "How can I contact my professor?",
+        "Give me the contact details of faculty",
+        "Faculty email addresses",
+        "I need to reach out to my teacher"
+      ],
+      "responses": [
+        "You can find faculty contact details on the college portal under the Faculty Directory section."
+      ]
+    },
+    {
+      "tag": "event_dates",
+      "patterns": [
+        "What are the upcoming college events?",
+        "Any events this week?",
+        "Tell me the event dates",
+        "Deadline for college fest registration"
+      ],
+      "responses": [
+        "The next event is the Tech Fest on April 20th. Registration closes on April 15th."
+      ]
+    },
+    {
+      "tag": "library_services",
+      "patterns": [
+        "Check book availability",
+        "Which books are due?",
+        "Library book return date?",
+        "My book is overdue"
+      ],
+      "responses": [
+        "You can check your borrowed books and due dates on the library portal using your student ID."
+      ]
+    },
+    {
+      "tag": "campus_navigation",
+      "patterns": [
+        "Where is the CSE department?",
+        "How do I get to the lab?",
+        "Location of admin office",
+        "Help me find my classroom"
+      ],
+      "responses": [
+        "The CSE department is in Block B, 2nd floor. Use the campus map available on the app for navigation."
+      ]
+    },
+    {
+      "tag": "placement_support",
+      "patterns": [
+        "When is the next placement drive?",
+        "Any training programs for placements?",
+        "Placement interview schedule",
+        "Tell me about placement updates",
+        "What is placement support?"
+      ],
+      "responses": [
+        "The next placement drive is on May 5th. Resume-building and interview training will be held next week.",
+        "Placement support includes resume preparation, interview guidance, training sessions, and company-specific updates to help students secure jobs."
+      ]
+    },
+
+
+
+    {
+      "tag": "name",
+      "patterns": [
+        
+        "what are you called",
+        "whats your name?",
+        "what are you",
+        "what am I chatting to",
+        "who am I talking to"
+      ],
+      "responses": [
+        "You can call me RCE chat support.",
+        "I'm RCE chat support",
+        "I'm RCE chat support aka RCE's Chatbot."
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "timing of college",
+        "what is college timing",
+        "working days",
+        "when are you guys open",
+        "what are your hours",
+        "hours of operation",
+        "when is the college open",
+        "college timing",
+        "what about college timing",
+        "is college open on Saturday",
+        "tell something about college timing",
+        "what is the college hours",
+        "when should I come to college",
+        "when should I attend college",
+        "what is my college time",
+        "college timing",
+        "timing college"
+      ],
+      "responses": [
+        "College is open from 09:00 AM to 04:50 PM Monday-Friday!"
+      ]
+    },
+    {
+      "tag": "number",
+      "patterns": [
+        "more info",
+        "contact info",
+        "how to contact college",
+        "college telephone number",
+        "college number",
+        "What is your contact no",
+        "Contact number?",
+        "how to call you",
+        "College phone no?",
+        "how can I contact you",
+        "Can I get your phone number",
+        "how can I call you",
+        "phone number",
+        "phone no",
+        "call"
+      ],
+      "responses": [
+        "You can contact at 08458222000, 08458222001 or write us at info@rcee.ac.in"
+      ]
+    },
+
+    {
+      "tag": "hostel_room_type",
+      "patterns": [
+        "Is the hostel AC or non-AC?",
+        "Are there AC rooms available in the hostel?",
+        "Do hostel rooms have air conditioning?",
+        "Is there an option for non-AC rooms?"
+      ],
+      "responses": [
+        "Yes, the hostel provides both AC and Non-AC rooms depending on the availability and preference."
+      ]
+    },
+    {
+      "tag": "hostel_food_snacks",
+      "patterns": [
+        "What kind of food is provided in the hostel?",
+        "Is vegetarian food available in the hostel?",
+        "Do you serve snacks in the evening?",
+        "How many meals are provided per day?",
+        "Is hostel food hygienic?",
+        "Do hostels provide breakfast, lunch, and dinner?"
+      ],
+      "responses": [
+        "The hostel serves hygienic vegetarian and non-vegetarian food. Breakfast, lunch, evening snacks, and dinner are provided daily."
+      ]
+    },
+    {
+      "tag": "hostel_meal_timings",
+      "patterns": [
+        "What are the food timings in the hostel?",
+        "At what time is breakfast served in the hostel?",
+        "When is dinner served in the hostel?",
+        "Can I get food after the mess timings?"
+      ],
+      "responses": [
+        "Meal timings are usually: Breakfast at 8 AM, Lunch at 1 PM, Snacks at 5 PM, and Dinner at 8 PM. Food is generally not available after the scheduled timings."
+      ]
+    },
+    {
+      "tag": "hostel_fee",
+      "patterns": [
+        "What is the hostel fee for boys?",
+        "What is the hostel fee for girls?",
+        "Is the fee for men's and women's hostel different?",
+        "How much does the hostel cost per semester?",
+        "Is the hostel fee refundable?"
+      ],
+      "responses": [
+        "The hostel fee varies based on room type (AC/Non-AC). For boys: ₹50,000–₹70,000 per semester. For girls: ₹45,000–₹65,000 per semester. Fees may vary slightly by academic year and facilities. A partial refund may be available under specific conditions."
+      ]
+    },
+
+    {
+      "tag": "faculty_timetable_venkat",
+      "patterns": [
+        "What is Prof. Venkat's timetable?",
+        "Tell me Venkat Sir's schedule",
+        "When does Venkat Sir have classes?",
+        "Prof. Venkat class timings",
+        "Show me Venkat Sir's timetable"
+      ],
+      "responses": [
+        "🗓️ Prof. Venkat's Schedule:\n- Monday: 9:00 AM – 10:00 AM (Machine Learning)\n- Tuesday: 1:00 PM – 2:00 PM (ML Lab), 3:00 PM – 4:00 PM (Project Guidance)\n- Thursday: 11:00 AM – 12:00 PM (Machine Learning)\n- Friday: 2:00 PM – 3:00 PM (Doubt Clarification Session)"
+      ]
+    },
+
+    {
+      "tag": "faculty_timetable_priya",
+      "patterns": [
+        "What is Prof. Priya Sharma's timetable?",
+        "Tell me Priya Sharma's schedule",
+        "When does Priya Sharma have classes?",
+        "Faculty timetable for Priya Sharma"
+      ],
+      "responses": [
+        "🗓️ Prof. Priya Sharma's Schedule:\n- Monday: 10:00 AM – 11:00 AM (Data Structures), 2:00 PM – 3:00 PM (Lab)\n- Wednesday: 11:00 AM – 12:00 PM (Data Structures)\n- Friday: 10:00 AM – 11:00 AM (Data Structures), 1:00 PM – 2:00 PM (Meeting)"
+      ]
+    },
+    {
+      "tag": "faculty_timetable_rahul",
+      "patterns": [
+        "What is Prof. Rahul Mehta's timetable?",
+        "Tell me Rahul Mehta's class timings",
+        "Rahul Mehta faculty schedule"
+      ],
+      "responses": [
+        "🗓️ Prof. Rahul Mehta's Schedule:\n- Monday: 9:00 AM – 10:00 AM (Java Programming)\n- Tuesday: 11:00 AM – 12:00 PM (Web Technologies), 2:00 PM – 3:00 PM (Mentoring)\n- Thursday: 9:00 AM – 10:00 AM (Java Programming)"
+      ]
+    },
+    {
+      "tag": "faculty_timetable_sneha",
+      "patterns": [
+        "What is Prof. Sneha Rao's timetable?",
+        "Give Sneha Rao's timings",
+        "When does Sneha Rao take classes?"
+      ],
+      "responses": [
+        "🗓️ Prof. Sneha Rao's Schedule:\n- Tuesday: 10:00 AM – 11:00 AM (Python Programming)\n- Wednesday: 9:00 AM – 10:00 AM (AI Lab), 2:00 PM – 3:00 PM (Seminar)\n- Friday: 11:00 AM – 12:00 PM (Python Programming)"
+      ]
+    },
+    {
+      "tag": "faculty_timetable_arun",
+      "patterns": [
+        "What is Prof. Arun Verma's schedule?",
+        "When does Arun Verma teach?",
+        "Show me Arun Verma's timetable"
+      ],
+      "responses": [
+        "🗓️ Prof. Arun Verma's Schedule:\n- Monday: 1:00 PM – 2:00 PM (Operating Systems)\n- Thursday: 10:00 AM – 11:00 AM (System Design), 3:00 PM – 4:00 PM (Internal Meeting)\n- Friday: 9:00 AM – 10:00 AM (Mentoring)"
+      ]
+    },
+    {
+      "tag": "faculty_timetable_divya",
+      "patterns": [
+        "Prof. Divya Reddy timetable",
+        "What are Divya Reddy's class hours?",
+        "Tell me Divya Reddy's schedule"
+      ],
+      "responses": [
+        "🗓️ Prof. Divya Reddy's Schedule:\n- Monday: 11:00 AM – 12:00 PM (Computer Networks)\n- Wednesday: 10:00 AM – 11:00 AM (Lab), 3:00 PM – 4:00 PM (Student Consultation)\n- Thursday: 2:00 PM – 3:00 PM (Computer Networks)"
+      ]
+    },
+    {
+      "tag": "course",
+      "patterns": [
+        "list of courses",
+        "list of courses offered",
+        "list of courses offered in RCE",
+        "what are the courses offered in your college?",
+        "courses?",
+        "courses offered",
+        "courses offered in RCE",
+        "courses you offer",
+        "branches?",
+        "courses available at RCE?",
+        "branches available at RCE?",
+        "what are the courses in RCE?",
+        "what are branches in RCE?",
+        "what are courses in RCE?",
+        "branches available in RCE?",
+        "can you tell me the courses available in RCE?",
+        "can you tell me the branches available in RCE?"
+      ],
+      "responses": [
+        "RCE offers Computer Science and Engineering (CSE), Computer Science and Engineering - AI&ML (CSE-AIML), Computer Science and Engineering - Data Science (CSE-AI&DS), Electrical and Electronics Engineering (EEE), Electronics and Communication Engineering (ECE), Civil Engineering, and Mechanical Engineering (CE&ME)."
+      ]
+    },
+    {
+      "tag": "f",
+      "patterns": [
+        "information about fee",
+        "information on fee",
+        "tell me the fee",
+        "college fee",
+        "fee per semester",
+        "what is the fee of each semester",
+        "what is the fees of each year",
+        "what is fee",
+        "what is the fees",
+        "how much is the fees",
+        "fees for first year",
+       
+        "about the fees",
+        "tell me something about the fees"
+      ],
+      "responses": [
+        "The College Fees are for CSE and allied Branches-2 Lacks, ECE-1 Lacks, EEE & Civil-60 Thousand. Please contact 08458222000, 08458222001 or write us at info@rcee.ac.in for more information."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where is the college located",
+        "college is located at",
+        "where is college",
+        "where is college located",
+        "address of college",
+        "how to reach college",
+        "college location",
+        "college address",
+        "where's the college",
+        "how can I reach college",
+        "what is the college address",
+        "what is the address of college",
+        "address",
+        "location"
+      ],
+      "responses": [
+        "RCE Institute of Technology is an engineering college established in 2008 in Eluru, Andhra Pradesh, India. Find it in Google Maps here: https://goo.gl/maps/tLZ2YdPkBEXqSzHo6"
+      ]
+    },
+    {
+      "tag": "hostel",
+      "patterns": [
+        "hostel facility",
+        "hostel service",
+        "hostel location",
+        "hostel address",
+        "hostel facilities",
+        "hostel fees",
+        "Does college provide hostel",
+        "Is there any hostel",
+        "Where is hostel",
+        "do you have hostel",
+        "do you guys have hostel",
+        "hostel",
+        "hostel capacity",
+        "what is the hostel fee",
+        "how to get in hostel",
+        "what is the hostel address",
+        "how far is hostel from college",
+        "hostel college distance",
+        "where is the hostel",
+        "how big is the hostel",
+        "distance between college and hostel",
+        "distance between hostel and college"
+      ],
+      "responses": [
+        "RCE provides hostel facilities for boys and girls also near the campus."
+      ]
+    },
+    {
+      "tag": "event",
+      "patterns": [
+        "events organized",
+        "list of events",
+        "list of events organized in college",
+        "list of events conducted in college",
+        "What events are conducted in college",
+        "Are there any events held at college",
+        "Events?",
+        "functions",
+        "what are the events",
+        "tell me about events",
+        "what about events"
+      ],
+      "responses": [
+        "Contact RCE or RCE's Instagram page. Reach RCE at https://www.instagram.com/rce"
+      ]
+    },
+    {
+      "tag": "document",
+      "patterns": [
+        "document to bring",
+        "documents needed for admission",
+        "documents needed at the time of admission",
+        "documents needed during admission",
+        "documents required for admission",
+        "documents required at the time of admission",
+        "documents required during admission",
+        "What documents are required for admission",
+        "Which document to bring for admission",
+        "documents",
+        "what documents do I need",
+        "what documents do I need for admission",
+        "documents needed"
+      ],
+      "responses": [
+        "To know more about documents required visit https://rce.ac.in/study/admission-process and https://www.rce.ac.in/study/scholarships or contact 9440036511 (Raju Sir)"
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "is there any library",
+        "library facility",
+        "library facilities",
+        "do you have library",
+        "does the college have library facility",
+        "college library",
+        "where can I get books",
+        "book facility",
+        "Where is library",
+        "Library",
+        "Tell me about library",
+        "how many libraries"
+      ],
+      "responses": [
+        "RCE has a Central Library which is the heart of the Institute established in the year 2024. Find more at https://rce.ac.in/discover/library"
+      ]
+    },
+    {
+      "tag": "infrastructure",
+      "patterns": [
+        "how is college infrastructure",
+        "infrastructure",
+        "college infrastructure"
+      ],
+      "responses": [
+        "RCE has Excellent Infrastructure. It is a 110 acres Park campus. Campus is clean. Good Labs With Good Speed of Internet connection. Find more at https://rce.ac.in/discover/about-campus"
+      ]
+    },
+    {
+      "tag": "canteen",
+      "patterns": [
+        "food facilities",
+        "canteen facilities",
+        "canteen facility",
+        "is there any canteen",
+        "Is there a cafeteria in college",
+        "Does college have canteen",
+        "Where is canteen",
+        "where is cafeteria",
+        "canteen",
+        "Cafeteria"
+      ],
+      "responses": [
+        "RCE has a canteen with a variety of food available. Canteen 1 is for hostellers and Canteen 2 for everyone."
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "food menu",
+        "food in canteen",
+        "What's there on the menu",
+        "what is available in college canteen",
+        "what foods can we get in college canteen"
+      ],
+      "responses": [
+        "We serve varieties of Biryani, Rice, Manchurian, Dosa, Puri, Bonda, and many more on the menu."
+      ]
+    },
+    {
+      "tag": "placement",
+      "patterns": [
+        "What is college placement",
+        "Which companies visit in college",
+        "What is average package",
+        "companies visit",
+        "package",
+        "placement",
+        "recruitment",
+        "companies"
+      ],
+      "responses": [
+        "To know about placement visit https://rce.ac.in/placements/"
+      ]
+    },
+    {
+      "tag": "csehod",
+      "patterns": [
+        "Who is CSE HOD",
+        "Where is CSE HOD",
+        "CSE hod",
+        "name of CSE hod"
+      ],
+      "responses": [
+        "Dr. G. Chamundeswari is HOD of CSE. Find more at https://www.rce.ac.in/cse-about-hod"
+      ]
+    },
+    {
+      "tag": "AI&DS hod",
+      "patterns": [
+        "Who is AI&DS HOD",
+        "Where is AI&DS HOD",
+        "ai&ds hod",
+        "name of aids hod"
+      ],
+      "responses": [
+        "Dr. K. Dasaradha Ramaiah is HOD of IT. Find more at https://www.rce.ac.in/it-about-hod"
+      ]
+    },
+    {
+      "tag": "civilhod",
+      "patterns": [
+        "Who is Civil HOD",
+        "Where is civil HOD",
+        "civil hod",
+        "name of civil hod"
+      ],
+      "responses": [
+        "Dr. G. Siva Kumar is Civil HOD. Find more at https://www.rce.ac.in/civil-about-hod"
+      ]
+    },
+    {
+      "tag": "mechhod",
+      "patterns": [
+        "Who is Mechanical HOD",
+        "Where is mechanical HOD",
+        "mechanical hod",
+        "name of mechanical hod"
+      ],
+      "responses": [
+        "Dr. V. Murali Krishna is Mechanical HOD. Find more at https://www.rce.ac.in/mech-about-hod"
+      ]
+    },
+    {
+      "tag": "basichod",
+      "patterns": [
+        "Who is Basic sciences HOD",
+        "Where is Basic sciences HOD",
+        "Basic sciences hod",
+        "name of Basic sciences hod"
+      ],
+      "responses": [
+        "Dr. P. Srikanth Rao is HOD of Basic sciences. Find more at https://www.rce.ac.in/bsh-about-hod"
+      ]
+    },
+    {
+      "tag": "ECEhod",
+      "patterns": [
+        "Who is ECE HOD",
+        "Where is ECE HOD",
+        "EC hod",
+        "name of ECE hod"
+      ],
+      "responses": [
+        "Dr. Sanjay Dubey is HOD of EEE. Find more at https://www.rce.ac.in/ece-about-hod"
+      ]
+    },
+    {
+      "tag": "EEEhod",
+      "patterns": [
+        "Who is EEE HOD",
+        "Where is EEE HOD",
+        "EE hod",
+        "name of EEE hod"
+      ],
+      "responses": [
+        "Dr. K. Rayudu is HOD of EEE. Find more at https://www.rce.ac.in/eee-about-hod"
+      ]
+    },
+    {
+      "tag": "MBAhod",
+      "patterns": [
+        "Who is MBA HOD",
+        "Where is MBA HOD",
+        "MBA hod",
+        "name of MBA hod"
+      ],
+      "responses": [
+        "Dr. I. Nageswara Rao is HOD of MBA. Find more at https://www.rce.ac.in/mba-about-hod"
+      ]
+    },
+    {
+      "tag": "principal",
+      "patterns": [
+        "what is the name of principal",
+        "what is the principal name",
+        "principal name",
+        "Who is college principal",
+        "Where is principal's office",
+        "principal",
+        "name of principal"
+      ],
+      "responses": [
+        "Dr. M. Muralidhara Rao is college principal who is available in Main Block. You can contact him at +91 7337411184 or principal@rce.ac.in"
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "what is the process of admission",
+        "what is the admission process",
+        "How to take admission in your college",
+        "What is the process for admission",
+        "admission",
+        "admission process"
+      ],
+      "responses": [
+        "Find it at https://rce.ac.in/study/admission-process"
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What facilities college provide",
+        "College facility",
+        "What are college facilities",
+        "facilities",
+        "facilities provided"
+      ],
+      "responses": [
+        "RCE provides fully AC Lab, Seminar halls with internet connection, smart classroom, Auditorium, library, canteen, Sports complex and many more."
+      ]
+    },
+    {
+      "tag": "college intake",
+      "patterns": [
+        "max number of students",
+        "number of seats per branch",
+        "number of seats in each branch",
+        "maximum number of seats",
+        "maximum students intake",
+        "What is college intake",
+        "how many students are taken in each branch",
+        "seat allotment",
+        "seats"
+      ],
+      "responses": [
+        "For Civil, CSE-AIML, CSE-DS, CSBS, AIDS 120 per branch. For Mech and EEE: 120 per branch. For ECE: 240. For CSE: 300."
+      ]
+    },
+    {
+      "tag": "uniform",
+      "patterns": [
+        "college dress code",
+        "college dress code",
+        "what is the uniform",
+        "can we wear casuals",
+        "Does college have a uniform",
+        "Is there any uniform",
+        "uniform",
+        "what about uniform",
+        "do we have to wear uniform"
+      ],
+      "responses": [
+        "RCE has a uniform. Students can wear decent Uniform and shouldn't be against the dressing standards set by college."
+      ]
+    },
+    {
+      "tag": "committee",
+      "patterns": [
+        "what are the different committees in college",
+        "different committee in college",
+        "Are there any committees in college",
+        "Give me committee details",
+        "committee",
+        "how many committees are there in college"
+      ],
+      "responses": [
+        "There are various committees in college you can see at https://www.rce.ac.in/central-committees"
+      ]
+    },
+    {
+      "tag": "random",
+      "patterns": [
+        "I love you",
+        "Will you marry me",
+        "Do you love me"
+      ],
+      "responses": [
+        "I am not programmed for this please ask appropriate query."
+      ]
+    },
+    {
+      "tag": "swear",
+      "patterns": [
+        "fuck",
+        "bitch",
+        "shut up",
+        "hell",
+        "stupid",
+        "idiot",
+        "dumb ass",
+        "asshole",
+        "fucker"
+      ],
+      "responses": [
+        "please use appropriate language.",
+        "Maintaining decency would be appreciated."
+      ]
+    },
+    {
+      "tag": "vacation",
+      "patterns": [
+        "holidays",
+        "when will semester start",
+        "when will semester end",
+        "when are the holidays",
+        "list of holidays",
+        "about vacations",
+        "about holidays",
+        "When is vacation",
+        "When is holidays",
+        "how long will be the vacation"
+      ],
+      "responses": [
+        "Please refer to the academic calendar https://www.rce.ac.in/study/academic-calendars"
+      ]
+    },
+    {
+      "tag": "salutation",
+      "patterns": [
+        "okk",
+        "okie",
+        "nice work",
+        "well done",
+        "good job",
+        "thanks for the help",
+        "Thank You",
+        "it's ok",
+        "Thanks",
+        "k",
+        "ok",
+        "okay"
+      ],
+      "responses": [
+        "I am glad I helped you.",
+        "Welcome, anything else I can assist you with?"
+      ]
+    },
+    {
+      "tag": "task",
+      "patterns": [
+      
+        "what are the things you can do",
+        "things you can do",
+        "what can you do for me",
+        "how can you help me",
+        "why should I use you"
+      ],
+      "responses": [
+        "I can answer low-intermediate questions regarding college.",
+        "You can ask me questions regarding college, and I will try to answer them.",
+        "I'm programmed to answer basic queries regarding college."
+      ]
+    },
+    {
+      "tag": "ragging",
+      "patterns": [
+        "ragging",
+        "is ragging practice active in college",
+        "does college have any anti-ragging facility",
+        "are there any ragging cases",
+        "is ragging done here",
+        "ragging juniors",
+        "ragging history",
+        "ragging incidents"
+      ],
+      "responses": [
+        "We are proud to tell you that our college provides a ragging-free environment, and we have strict rules against ragging."
+      ]
+    },
+    
+    {
+      "tag": "facts",
+      "patterns": [
+        "Tell me facts about the college",
+        "tell me any unknown fact",
+        "facts",
+        "RCE facts"
+      ],
+      "responses": [
+        "RCE provides 100% placements.",
+        "RCE is one of the top colleges in Andhra Pradesh.",
+        "RCE stands for RAMACHANDRA COLLEGE OF ENGINEERING."
+      ]
+    },
+    {
+      "tag": "all_hods",
+      "patterns": [
+          "all hods", 
+          "list of hods", 
+          "who are the HODs", 
+          "HOD details"
+      ],
+      "responses": [
+          "Here are the Heads of Departments (HODs) at Ramachandra College of Engineering:1. **Civil Engineering (CE)** - Dr. K. Sundara Kumar\n   - 2. **Mechanical Engineering (ME)** - Dr. Bazani Shaik\n   - 3. **Electrical & Electronics Engineering (EEE)** - Dr. Subramanya Sarma S\n   - 4. **Electronics & Communication Engineering (ECE)** - Dr. Bonam Raghavaiah\n   - 5. **Computer Science & Engineering (CSE)** - Dr. G. Chamundeswari\n   - 6. **Artificial Intelligence & Data Science (AI & DS)** - Dr. Venkatesh K\n   - 7. **Artificial Intelligence & Machine Learning (AI & ML)** - Dr. B. Sarada\n   - 8. **Cyber Security (CS)** - Dr. Shameena Begum\n   - 9. **Internet of Things (IoT)** - Dr. P. Sudhakar\n   - 10. **Master of Business Administration (MBA)** - Dr. S. Naga Padma\n   - 11. **Freshman Engineering Department (FED)** - Dr. SVBS Rao\n   - For the most updated details, please visit the official website: https://www.rcee.ac.in/about/contact-us"
+      ]
+  },
+    {
+      "tag": "time_table",
+      "patterns": [
+        "What is the class timetable?",
+        "Can you give me the schedule for classes?",
+        "I need the college timetable",
+        "What are the timings for college classes?",
+        "Show me the timetable for all branches",
+        "Tell me the timetable for classes"
+      ],
+      "responses": [
+        "✔ **College Timetable (General Schedule):**📌 **Monday to Saturday**🕘 **Morning Session:** 9:00 AM - 12:30 PM (3 periods)☕ **Break:** 12:30 PM - 1:30 PM (Lunch Break)🕐 **Afternoon Session:** 1:30 PM - 4:30 PM (3 periods) 📅 Each department has a specific timetable. Please specify your branch and semester for a detailed schedule."
+      ]
+    },
+    {
+      "tag": "time_table_cse",
+      "patterns": [
+        "cse timetable",
+        "What is the CSE timetable?",
+        "Can you give me the schedule for CSE classes?",
+        "I need the CSE timetable",
+        "What are the timings for CSE classes?",
+        "Show me the timetable for CSE branch",
+        "Tell me the timetable for CSE department"
+      ],
+      "responses": [
+        "✔ **CSE Timetable (General Schedule):**📌 **Monday to Saturday**🕘 **Morning Session:**  - 9:00 AM - 10:00 AM → Subject 1  - 10:00 AM - 11:00 AM → Subject 2 - 11:00 AM - 12:00 PM → Subject 3 - 12:00 PM - 12:30 PM → Lab Session / Seminar☕ **Lunch Break:** 12:30 PM - 1:30 PM🕐 **Afternoon Session:**  - 1:30 PM - 2:30 PM → Subject 4 - 2:30 PM - 3:30 PM → Subject 5 - 3:30 PM - 4:30 PM → Lab / Practical Session📅 Each semester has a different timetable. Please specify your semester for an exact schedule."
+      ]
+    },
+    {
+      "tag": "subjects_aids_sem1",
+      "patterns": [
+        "What are the subjects in AIDS 1st semester?",
+        "Tell me the syllabus for AIDS 1st sem",
+        "What subjects are taught in the first semester of AIDS?"
+      ],
+      "responses": [
+        "✔ **AIDS 1st Semester Subjects:** 1. Mathematics - I 2. Physics 3. Programming for Problem Solving (C Programming) 4. Basic Electrical & Electronics Engineering 5. English 6. Engineering Graphics 7. Physics Lab 8. C Programming Lab 9. Engineering Workshop"
+      ]
+    },
+    {
+      "tag": "subjects_aids_sem2",
+      "patterns": [
+        "What are the subjects in AIDS 2nd semester?",
+        "Tell me the syllabus for AIDS 2nd sem",
+        "What subjects are taught in the second semester of AIDS?"
+      ],
+      "responses": [
+        "✔ **AIDS 2nd Semester Subjects:** 1. Mathematics - II2. Chemistry 3. Data Structures 4. Object-Oriented Programming (Java) 5. Computer Organization & Architecture 6. Environmental Science 7. Data Structures Lab 8. Java Programming Lab 9. Chemistry Lab"
+      ]
+    },
+    {
+      "tag": "subjects_aids_sem3",
+      "patterns": [
+        "What are the subjects in AIDS 3rd semester?",
+        "Tell me the syllabus for AIDS 3rd sem",
+        "What subjects are taught in the third semester of AIDS?"
+      ],
+      "responses": [
+        "✔ **AIDS 3rd Semester Subjects:** 1. Discrete Mathematics 2. Design & Analysis of Algorithms 3. Database Management Systems 4. Operating Systems 5. Artificial Intelligence 6. Database Lab 7. Operating Systems Lab 8. Python Programming"
+      ]
+    },
+    {
+      "tag": "subjects_aids_sem4",
+      "patterns": [
+        "What are the subjects in AIDS 4th semester?",
+        "Tell me the syllabus for AIDS 4th sem",
+        "What subjects are taught in the fourth semester of AIDS?"
+      ],
+      "responses": [
+        "✔ **AIDS 4th Semester Subjects:** 1. Probability & Statistics 2. Machine Learning 3. Computer Networks 4. Web Technologies 5. Data Mining 6. Machine Learning Lab 7. Computer Networks Lab 8. Web Technologies Lab"
+      ]
+    },
+    {
+      "tag": "subjects_aids_sem5",
+      "patterns": [
+        "What are the subjects in AIDS 5th semester?",
+        "Tell me the syllabus for AIDS 5th sem",
+        "What subjects are taught in the fifth semester of AIDS?"
+      ],
+      "responses": [
+        "✔ **AIDS 5th Semester Subjects:** 1. Deep Learning 2. Big Data Analytics 3. Cloud Computing 4. Professional Elective - I 5. Open Elective - I 6. Deep Learning Lab 7. Big Data Analytics Lab 8. Internship/Project Work"
+      ]
+    },
+    {
+      "tag": "subjects_aids_sem6",
+      "patterns": [
+        "What are the subjects in AIDS 6th semester?",
+        "Tell me the syllabus for AIDS 6th sem",
+        "What subjects are taught in the sixth semester of AIDS?"
+      ],
+      "responses": [
+        "✔ **AIDS 6th Semester Subjects:** 1. Natural Language Processing 2. Reinforcement Learning 3. Professional Elective - II 4. Open Elective - II 5. Cyber Security  6. NLP Lab 7. Cyber Security Lab 8. Mini Project"
+      ]
+    },
+    {
+      "tag": "subjects_aids_sem7",
+      "patterns": [
+        "What are the subjects in AIDS 7th semester?",
+        "Tell me the syllabus for AIDS 7th sem",
+        "What subjects are taught in the seventh semester of AIDS?"
+      ],
+      "responses": [
+        "✔ **AIDS 7th Semester Subjects:**  1. Internet of Things (IoT) 2. Blockchain Technology 3. Open Elective - III  4. Professional Elective - III 5. IoT Lab 6. Blockchain Lab 7. Industry Internship"
+      ]
+    },
+    {
+      "tag": "subjects_aids_sem8",
+      "patterns": [
+        "What are the subjects in AIDS 8th semester?",
+        "Tell me the syllabus for AIDS 8th sem",
+        "What subjects are taught in the eighth semester of AIDS?"
+      ],
+      "responses": [
+        "✔ **AIDS 8th Semester Subjects:** 1. Capstone Project 2. Research-Based Learning 3. Entrepreneurship & Startups 4. Industry Training 5. Final Year Project"
+      ]
+    },
+      {
+        "tag": "subjects_cse_sem1",
+        "patterns": [
+          "What are the subjects in CSE 1st semester?",
+          "Tell me the syllabus for CSE 1st sem",
+          "What subjects are taught in the first semester of CSE?"
+        ],
+        "responses": [
+          "✔ **CSE 1st Semester Subjects:**  \n1. Mathematics - I  \n2. Physics  \n3. Basic Electrical Engineering  \n4. Programming for Problem Solving  \n5. Engineering Graphics  \n6. Environmental Science"
+        ]
+      },
+      {
+        "tag": "subjects_cse_sem2",
+        "patterns": [
+          "What are the subjects in CSE 2nd semester?",
+          "Tell me the syllabus for CSE 2nd sem",
+          "What subjects are taught in the second semester of CSE?"
+        ],
+        "responses": [
+          "✔ **CSE 2nd Semester Subjects:**  \n1. Mathematics - II  \n2. Chemistry  \n3. Data Structures  \n4. Digital Electronics  \n5. Communication Skills  \n6. Python Programming"
+        ]
+      },
+      {
+        "tag": "subjects_cse_sem3",
+        "patterns": [
+          "What are the subjects in CSE 3rd semester?",
+          "Tell me the syllabus for CSE 3rd sem",
+          "What subjects are taught in the third semester of CSE?"
+        ],
+        "responses": [
+          "✔ **CSE 3rd Semester Subjects:**  \n1. Discrete Mathematics  \n2. Object-Oriented Programming (OOP)  \n3. Computer Organization & Architecture  \n4. Operating Systems  \n5. Design & Analysis of Algorithms  \n6. Data Structures Lab"
+        ]
+      },
+      {
+        "tag": "subjects_cse_sem4",
+        "patterns": [
+          "What are the subjects in CSE 4th semester?",
+          "Tell me the syllabus for CSE 4th sem",
+          "What subjects are taught in the fourth semester of CSE?"
+        ],
+        "responses": [
+          "✔ **CSE 4th Semester Subjects:**  \n1. Theory of Computation  \n2. Database Management Systems (DBMS)  \n3. Computer Networks  \n4. Software Engineering  \n5. Artificial Intelligence  \n6. DBMS Lab"
+        ]
+      },
+      {
+        "tag": "subjects_cse_sem5",
+        "patterns": [
+          "What are the subjects in CSE 5th semester?",
+          "Tell me the syllabus for CSE 5th sem",
+          "What subjects are taught in the fifth semester of CSE?"
+        ],
+        "responses": [
+          "✔ **CSE 5th Semester Subjects:**  \n1. Machine Learning  \n2. Compiler Design  \n3. Web Technologies  \n4. Professional Elective - I  \n5. Open Elective - I  \n6. Machine Learning Lab"
+        ]
+      },
+      {
+        "tag": "subjects_cse_sem6",
+        "patterns": [
+          "What are the subjects in CSE 6th semester?",
+          "Tell me the syllabus for CSE 6th sem",
+          "What subjects are taught in the sixth semester of CSE?"
+        ],
+        "responses": [
+          "✔ **CSE 6th Semester Subjects:**  \n1. Cloud Computing  \n2. Cyber Security  \n3. Big Data Analytics  \n4. Professional Elective - II  \n5. Open Elective - II  \n6. Cloud Computing Lab"
+        ]
+      },
+      {
+        "tag": "subjects_cse_sem7",
+        "patterns": [
+          "What are the subjects in CSE 7th semester?",
+          "Tell me the syllabus for CSE 7th sem",
+          "What subjects are taught in the seventh semester of CSE?"
+        ],
+        "responses": [
+          "✔ **CSE 7th Semester Subjects:**  \n1. Internet of Things (IoT)  \n2. Blockchain Technology  \n3. Open Elective - III  \n4. Professional Elective - III  \n5. IoT Lab  \n6. Blockchain Lab  \n7. Industry Internship"
+        ]
+      },
+      {
+        "tag": "subjects_cse_sem8",
+        "patterns": [
+          "What are the subjects in CSE 8th semester?",
+          "Tell me the syllabus for CSE 8th sem",
+          "What subjects are taught in the eighth semester of CSE?"
+        ],
+        "responses": [
+          "✔ **CSE 8th Semester Subjects:**  \n1. Artificial Intelligence & Deep Learning  \n2. Professional Elective - IV  \n3. Open Elective - IV  \n4. Major Project  \n5. Industry Internship / Research Work"
+        ]
+      },    
+      {
+        "tag": "subjects_eee_sem1",
+        "patterns": [
+          "What are the subjects in EEE 1st semester?",
+          "Tell me the syllabus for EEE 1st sem",
+          "What subjects are taught in the first semester of EEE?"
+        ],
+        "responses": [
+          "✔ **EEE 1st Semester Subjects:**  \n1. Mathematics - I  \n2. Engineering Physics  \n3. Basic Electrical Engineering  \n4. Programming for Problem Solving  \n5. Engineering Graphics  \n6. Environmental Science"
+        ]
+      },
+      {
+        "tag": "subjects_eee_sem2",
+        "patterns": [
+          "What are the subjects in EEE 2nd semester?",
+          "Tell me the syllabus for EEE 2nd sem",
+          "What subjects are taught in the second semester of EEE?"
+        ],
+        "responses": [
+          "✔ **EEE 2nd Semester Subjects:**  \n1. Mathematics - II  \n2. Engineering Chemistry  \n3. Network Theory  \n4. Digital Electronics  \n5. Communication Skills  \n6. Python Programming"
+        ]
+      },
+      {
+        "tag": "subjects_eee_sem3",
+        "patterns": [
+          "What are the subjects in EEE 3rd semester?",
+          "Tell me the syllabus for EEE 3rd sem",
+          "What subjects are taught in the third semester of EEE?"
+        ],
+        "responses": [
+          "✔ **EEE 3rd Semester Subjects:**  \n1. Electrical Machines - I  \n2. Analog Electronics  \n3. Signals & Systems  \n4. Electromagnetic Fields  \n5. Control Systems  \n6. Electrical Machines Lab"
+        ]
+      },
+      {
+        "tag": "subjects_eee_sem4",
+        "patterns": [
+          "What are the subjects in EEE 4th semester?",
+          "Tell me the syllabus for EEE 4th sem",
+          "What subjects are taught in the fourth semester of EEE?"
+        ],
+        "responses": [
+          "✔ **EEE 4th Semester Subjects:**  \n1. Electrical Machines - II  \n2. Power Electronics  \n3. Microprocessors & Microcontrollers  \n4. Power Systems - I  \n5. Digital Signal Processing  \n6. Power Electronics Lab"
+        ]
+      },
+      {
+        "tag": "subjects_eee_sem5",
+        "patterns": [
+          "What are the subjects in EEE 5th semester?",
+          "Tell me the syllabus for EEE 5th sem",
+          "What subjects are taught in the fifth semester of EEE?"
+        ],
+        "responses": [
+          "✔ **EEE 5th Semester Subjects:**  \n1. Power Systems - II  \n2. Electrical Measurements & Instrumentation  \n3. Renewable Energy Sources  \n4. Professional Elective - I  \n5. Open Elective - I  \n6. Power Systems Lab"
+        ]
+      },
+      {
+        "tag": "subjects_eee_sem6",
+        "patterns": [
+          "What are the subjects in EEE 6th semester?",
+          "Tell me the syllabus for EEE 6th sem",
+          "What subjects are taught in the sixth semester of EEE?"
+        ],
+        "responses": [
+          "✔ **EEE 6th Semester Subjects:**  \n1. High Voltage Engineering  \n2. Electrical Drives  \n3. Smart Grid Technology  \n4. Professional Elective - II  \n5. Open Elective - II  \n6. Electrical Drives Lab"
+        ]
+      },
+      {
+        "tag": "subjects_eee_sem7",
+        "patterns": [
+          "What are the subjects in EEE 7th semester?",
+          "Tell me the syllabus for EEE 7th sem",
+          "What subjects are taught in the seventh semester of EEE?"
+        ],
+        "responses": [
+          "✔ **EEE 7th Semester Subjects:**  \n1. Power System Protection  \n2. Industrial Automation  \n3. Open Elective - III  \n4. Professional Elective - III  \n5. Industrial Automation Lab  \n6. Power System Protection Lab  \n7. Industry Internship"
+        ]
+      },
+      {
+        "tag": "subjects_eee_sem8",
+        "patterns": [
+          "What are the subjects in EEE 8th semester?",
+          "Tell me the syllabus for EEE 8th sem",
+          "What subjects are taught in the eighth semester of EEE?"
+        ],
+        "responses": [
+          "✔ **EEE 8th Semester Subjects:**  \n1. Electric Vehicles & Energy Storage Systems  \n2. Professional Elective - IV  \n3. Open Elective - IV  \n4. Major Project  \n5. Industry Internship / Research Work"
+        ]
+      },
+      {
+        "tag": "subjects_ece_sem1",
+        "patterns": [
+          "What are the subjects in ECE 1st semester?",
+          "Tell me the syllabus for ECE 1st sem",
+          "What subjects are taught in the first semester of ECE?"
+        ],
+        "responses": [
+          "✔ **ECE 1st Semester Subjects:**  \n1. Mathematics - I  \n2. Physics  \n3. Basic Electrical Engineering  \n4. Programming for Problem Solving  \n5. Engineering Graphics  \n6. Environmental Science"
+        ]
+      },
+      {
+        "tag": "subjects_ece_sem2",
+        "patterns": [
+          "What are the subjects in ECE 2nd semester?",
+          "Tell me the syllabus for ECE 2nd sem",
+          "What subjects are taught in the second semester of ECE?"
+        ],
+        "responses": [
+          "✔ **ECE 2nd Semester Subjects:**  \n1. Mathematics - II  \n2. Chemistry  \n3. Electronic Devices  \n4. Network Theory  \n5. Communication Skills  \n6. Python Programming"
+        ]
+      },
+      {
+        "tag": "subjects_ece_sem3",
+        "patterns": [
+          "What are the subjects in ECE 3rd semester?",
+          "Tell me the syllabus for ECE 3rd sem",
+          "What subjects are taught in the third semester of ECE?"
+        ],
+        "responses": [
+          "✔ **ECE 3rd Semester Subjects:**  \n1. Signals & Systems  \n2. Digital Electronics  \n3. Analog Circuits  \n4. Electromagnetic Fields  \n5. Probability & Random Processes  \n6. Digital Electronics Lab"
+        ]
+      },
+      {
+        "tag": "subjects_ece_sem4",
+        "patterns": [
+          "What are the subjects in ECE 4th semester?",
+          "Tell me the syllabus for ECE 4th sem",
+          "What subjects are taught in the fourth semester of ECE?"
+        ],
+        "responses": [
+          "✔ **ECE 4th Semester Subjects:**  \n1. Microprocessors & Microcontrollers  \n2. Communication Systems  \n3. Control Systems  \n4. Linear Integrated Circuits  \n5. Digital Signal Processing  \n6. Communication Lab"
+        ]
+      },
+      {
+        "tag": "subjects_ece_sem5",
+        "patterns": [
+          "What are the subjects in ECE 5th semester?",
+          "Tell me the syllabus for ECE 5th sem",
+          "What subjects are taught in the fifth semester of ECE?"
+        ],
+        "responses": [
+          "✔ **ECE 5th Semester Subjects:**  \n1. VLSI Design  \n2. Antenna & Wave Propagation  \n3. Embedded Systems  \n4. Professional Elective - I  \n5. Open Elective - I  \n6. Embedded Systems Lab"
+        ]
+      },
+      {
+        "tag": "subjects_ece_sem6",
+        "patterns": [
+          "What are the subjects in ECE 6th semester?",
+          "Tell me the syllabus for ECE 6th sem",
+          "What subjects are taught in the sixth semester of ECE?"
+        ],
+        "responses": [
+          "✔ **ECE 6th Semester Subjects:**  \n1. Optical Communication  \n2. Wireless Communication  \n3. Internet of Things (IoT)  \n4. Professional Elective - II  \n5. Open Elective - II  \n6. Wireless Communication Lab"
+        ]
+      },
+      {
+        "tag": "subjects_ece_sem7",
+        "patterns": [
+          "What are the subjects in ECE 7th semester?",
+          "Tell me the syllabus for ECE 7th sem",
+          "What subjects are taught in the seventh semester of ECE?"
+        ],
+        "responses": [
+          "✔ **ECE 7th Semester Subjects:**  \n1. Artificial Intelligence for Electronics  \n2. Radar & Navigation Systems  \n3. Open Elective - III  \n4. Professional Elective - III  \n5. AI for Electronics Lab  \n6. Radar & Navigation Lab  \n7. Industry Internship"
+        ]
+      },
+      {
+        "tag": "subjects_ece_sem8",
+        "patterns": [
+          "What are the subjects in ECE 8th semester?",
+          "Tell me the syllabus for ECE 8th sem",
+          "What subjects are taught in the eighth semester of ECE?"
+        ],
+        "responses": [
+          "✔ **ECE 8th Semester Subjects:**  \n1. 5G & Beyond Wireless Technologies  \n2. Professional Elective - IV  \n3. Open Elective - IV  \n4. Major Project  \n5. Industry Internship / Research Work"
+        ]
+      },
+      {
+        "tag": "subjects_civil_sem1",
+        "patterns": [
+          "What are the subjects in Civil 1st semester?",
+          "Tell me the syllabus for Civil 1st sem",
+          "What subjects are taught in the first semester of Civil?"
+        ],
+        "responses": [
+          "✔ **Civil 1st Semester Subjects:**  \n1. Mathematics - I  \n2. Engineering Physics  \n3. Engineering Mechanics  \n4. Basic Electrical & Electronics Engineering  \n5. Engineering Graphics  \n6. Environmental Science"
+        ]
+      },
+      {
+        "tag": "subjects_civil_sem2",
+        "patterns": [
+          "What are the subjects in Civil 2nd semester?",
+          "Tell me the syllabus for Civil 2nd sem",
+          "What subjects are taught in the second semester of Civil?"
+        ],
+        "responses": [
+          "✔ **Civil 2nd Semester Subjects:**  \n1. Mathematics - II  \n2. Engineering Chemistry  \n3. Strength of Materials - I  \n4. Fluid Mechanics  \n5. Surveying - I  \n6. Computer-Aided Drawing"
+        ]
+      },
+      {
+        "tag": "subjects_civil_sem3",
+        "patterns": [
+          "What are the subjects in Civil 3rd semester?",
+          "Tell me the syllabus for Civil 3rd sem",
+          "What subjects are taught in the third semester of Civil?"
+        ],
+        "responses": [
+          "✔ **Civil 3rd Semester Subjects:**  \n1. Mathematics - III  \n2. Strength of Materials - II  \n3. Structural Analysis - I  \n4. Surveying - II  \n5. Engineering Geology  \n6. Concrete Technology"
+        ]
+      },
+      {
+        "tag": "subjects_civil_sem4",
+        "patterns": [
+          "What are the subjects in Civil 4th semester?",
+          "Tell me the syllabus for Civil 4th sem",
+          "What subjects are taught in the fourth semester of Civil?"
+        ],
+        "responses": [
+          "✔ **Civil 4th Semester Subjects:**  \n1. Structural Analysis - II  \n2. Design of Concrete Structures  \n3. Geotechnical Engineering - I  \n4. Transportation Engineering - I  \n5. Hydraulics & Hydraulic Machines  \n6. Construction Materials & Techniques"
+        ]
+      },
+      {
+        "tag": "subjects_civil_sem5",
+        "patterns": [
+          "What are the subjects in Civil 5th semester?",
+          "Tell me the syllabus for Civil 5th sem",
+          "What subjects are taught in the fifth semester of Civil?"
+        ],
+        "responses": [
+          "✔ **Civil 5th Semester Subjects:**  \n1. Design of Steel Structures  \n2. Geotechnical Engineering - II  \n3. Transportation Engineering - II  \n4. Environmental Engineering - I  \n5. Professional Elective - I  \n6. Open Elective - I"
+        ]
+      },
+      {
+        "tag": "subjects_civil_sem6",
+        "patterns": [
+          "What are the subjects in Civil 6th semester?",
+          "Tell me the syllabus for Civil 6th sem",
+          "What subjects are taught in the sixth semester of Civil?"
+        ],
+        "responses": [
+          "✔ **Civil 6th Semester Subjects:**  \n1. Water Resources Engineering  \n2. Environmental Engineering - II  \n3. Construction Management  \n4. Professional Elective - II  \n5. Open Elective - II  \n6. Remote Sensing & GIS"
+        ]
+      },
+      {
+        "tag": "subjects_civil_sem7",
+        "patterns": [
+          "What are the subjects in Civil 7th semester?",
+          "Tell me the syllabus for Civil 7th sem",
+          "What subjects are taught in the seventh semester of Civil?"
+        ],
+        "responses": [
+          "✔ **Civil 7th Semester Subjects:**  \n1. Advanced Structural Design  \n2. Smart Materials & Construction  \n3. Open Elective - III  \n4. Professional Elective - III  \n5. Project Work - I  \n6. Industrial Training"
+        ]
+      },
+      {
+        "tag": "subjects_civil_sem8",
+        "patterns": [
+          "What are the subjects in Civil 8th semester?",
+          "Tell me the syllabus for Civil 8th sem",
+          "What subjects are taught in the eighth semester of Civil?"
+        ],
+        "responses": [
+          "✔ **Civil 8th Semester Subjects:**  \n1. Disaster Management & Mitigation  \n2. Professional Elective - IV  \n3. Open Elective - IV  \n4. Major Project  \n5. Industry Internship / Research Work"
+        ]
+      },
+      {
+        "tag": "subjects_mech_sem1",
+        "patterns": [
+          "What are the subjects in Mechanical 1st semester?",
+          "Tell me the syllabus for Mechanical 1st sem",
+          "What subjects are taught in the first semester of Mechanical?"
+        ],
+        "responses": [
+          "✔ **Mechanical 1st Semester Subjects:**  \n1. Mathematics - I  \n2. Engineering Physics  \n3. Basic Electrical & Electronics Engineering  \n4. Engineering Mechanics  \n5. Engineering Graphics  \n6. Environmental Science"
+        ]
+      },
+      {
+        "tag": "subjects_mech_sem2",
+        "patterns": [
+          "What are the subjects in Mechanical 2nd semester?",
+          "Tell me the syllabus for Mechanical 2nd sem",
+          "What subjects are taught in the second semester of Mechanical?"
+        ],
+        "responses": [
+          "✔ **Mechanical 2nd Semester Subjects:**  \n1. Mathematics - II  \n2. Engineering Chemistry  \n3. Strength of Materials  \n4. Fluid Mechanics  \n5. Manufacturing Processes  \n6. Computer-Aided Drawing"
+        ]
+      },
+      {
+        "tag": "subjects_mech_sem3",
+        "patterns": [
+          "What are the subjects in Mechanical 3rd semester?",
+          "Tell me the syllabus for Mechanical 3rd sem",
+          "What subjects are taught in the third semester of Mechanical?"
+        ],
+        "responses": [
+          "✔ **Mechanical 3rd Semester Subjects:**  \n1. Mathematics - III  \n2. Thermodynamics  \n3. Material Science & Engineering  \n4. Fluid Mechanics & Machinery  \n5. Machine Drawing  \n6. Engineering Metallurgy"
+        ]
+      },
+      {
+        "tag": "subjects_mech_sem4",
+        "patterns": [
+          "What are the subjects in Mechanical 4th semester?",
+          "Tell me the syllabus for Mechanical 4th sem",
+          "What subjects are taught in the fourth semester of Mechanical?"
+        ],
+        "responses": [
+          "✔ **Mechanical 4th Semester Subjects:**  \n1. Applied Thermodynamics  \n2. Theory of Machines  \n3. Manufacturing Technology  \n4. Heat & Mass Transfer  \n5. Dynamics of Machinery  \n6. Numerical Methods & Optimization"
+        ]
+      },
+      {
+        "tag": "subjects_mech_sem5",
+        "patterns": [
+          "What are the subjects in Mechanical 5th semester?",
+          "Tell me the syllabus for Mechanical 5th sem",
+          "What subjects are taught in the fifth semester of Mechanical?"
+        ],
+        "responses": [
+          "✔ **Mechanical 5th Semester Subjects:**  \n1. Design of Machine Elements  \n2. Fluid Power Engineering  \n3. Metrology & Quality Control  \n4. Professional Elective - I  \n5. Open Elective - I  \n6. Manufacturing Technology Lab"
+        ]
+      },
+      {
+        "tag": "subjects_mech_sem6",
+        "patterns": [
+          "What are the subjects in Mechanical 6th semester?",
+          "Tell me the syllabus for Mechanical 6th sem",
+          "What subjects are taught in the sixth semester of Mechanical?"
+        ],
+        "responses": [
+          "✔ **Mechanical 6th Semester Subjects:**  \n1. Finite Element Analysis  \n2. Mechatronics & Robotics  \n3. Power Plant Engineering  \n4. Professional Elective - II  \n5. Open Elective - II  \n6. Mechatronics Lab"
+        ]
+      },
+      {
+        "tag": "subjects_mech_sem7",
+        "patterns": [
+          "What are the subjects in Mechanical 7th semester?",
+          "Tell me the syllabus for Mechanical 7th sem",
+          "What subjects are taught in the seventh semester of Mechanical?"
+        ],
+        "responses": [
+          "✔ **Mechanical 7th Semester Subjects:**  \n1. Industrial Engineering & Management  \n2. Automobile Engineering  \n3. Open Elective - III  \n4. Professional Elective - III  \n5. CAD/CAM Lab  \n6. Industrial Training"
+        ]
+      },
+      {
+        "tag": "subjects_mech_sem8",
+        "patterns": [
+          "What are the subjects in Mechanical 8th semester?",
+          "Tell me the syllabus for Mechanical 8th sem",
+          "What subjects are taught in the eighth semester of Mechanical?"
+        ],
+        "responses": [
+          "✔ **Mechanical 8th Semester Subjects:**  \n1. Renewable Energy Systems  \n2. Professional Elective - IV  \n3. Open Elective - IV  \n4. Major Project  \n5. Industry Internship / Research Work"
+        ]
+      },
+      {
+        "tag": "subjects_mba_sem1",
+        "patterns": [
+          "What are the subjects in MBA 1st semester?",
+          "Tell me the syllabus for MBA 1st sem",
+          "What subjects are taught in the first semester of MBA?"
+        ],
+        "responses": [
+          "✔ **MBA 1st Semester Subjects:**  \n1. Principles of Management  \n2. Financial Accounting  \n3. Managerial Economics  \n4. Business Communication  \n5. Marketing Management  \n6. Organizational Behavior  \n7. Business Analytics for Decision Making"
+        ]
+      },
+      {
+        "tag": "subjects_mba_sem2",
+        "patterns": [
+          "What are the subjects in MBA 2nd semester?",
+          "Tell me the syllabus for MBA 2nd sem",
+          "What subjects are taught in the second semester of MBA?"
+        ],
+        "responses": [
+          "✔ **MBA 2nd Semester Subjects:**  \n1. Financial Management  \n2. Human Resource Management  \n3. Operations Management  \n4. Business Research Methods  \n5. Business Law & Ethics  \n6. Entrepreneurship Development  \n7. Strategic Management"
+        ]
+      },
+      {
+        "tag": "subjects_mba_sem3",
+        "patterns": [
+          "What are the subjects in MBA 3rd semester?",
+          "Tell me the syllabus for MBA 3rd sem",
+          "What subjects are taught in the third semester of MBA?"
+        ],
+        "responses": [
+          "✔ **MBA 3rd Semester Subjects:**  \n1. International Business  \n2. Business Analytics & Data Science  \n3. Elective - I (Marketing/Finance/HR/Operations)  \n4. Elective - II (Marketing/Finance/HR/Operations)  \n5. Elective - III (Marketing/Finance/HR/Operations)  \n6. Summer Internship Project"
+        ]
+      },
+      {
+        "tag": "subjects_mba_sem4",
+        "patterns": [
+          "What are the subjects in MBA 4th semester?",
+          "Tell me the syllabus for MBA 4th sem",
+          "What subjects are taught in the fourth semester of MBA?"
+        ],
+        "responses": [
+          "✔ **MBA 4th Semester Subjects:**  \n1. Leadership & Change Management  \n2. Corporate Governance & Business Ethics  \n3. Elective - IV (Marketing/Finance/HR/Operations)  \n4. Elective - V (Marketing/Finance/HR/Operations)  \n5. Research Project / Dissertation  \n6. Industry Internship / Live Project"
+        ]
+      },
+      {
+        "tag": "fees_cse",
+        "patterns": [
+          "What is the fee for CSE?",
+          "Tell me the tuition fee for Computer Science Engineering",
+          "How much does CSE cost per year?"
+        ],
+        "responses": [
+          "✔ **CSE Fee Structure:**  \n- Tuition Fee: ₹1,50,000 per year  \n- Examination Fee: ₹5,000 per semester  \n- Library & Lab Fee: ₹10,000 per year  \n- Total Estimated Cost (4 Years): ₹6,20,000"
+        ]
+      },
+      {
+        "tag": "fees_eee",
+        "patterns": [
+          "What is the fee for EEE?",
+          "Tell me the tuition fee for Electrical and Electronics Engineering",
+          "How much does EEE cost per year?"
+        ],
+        "responses": [
+          "✔ **EEE Fee Structure:**  \n- Tuition Fee: ₹1,40,000 per year  \n- Examination Fee: ₹5,000 per semester  \n- Library & Lab Fee: ₹8,000 per year  \n- Total Estimated Cost (4 Years): ₹5,80,000"
+        ]
+      },
+      {
+        "tag": "fees_ece",
+        "patterns": [
+          "What is the fee for ECE?",
+          "Tell me the tuition fee for Electronics and Communication Engineering",
+          "How much does ECE cost per year?"
+        ],
+        "responses": [
+          "✔ **ECE Fee Structure:**  \n- Tuition Fee: ₹1,45,000 per year  \n- Examination Fee: ₹5,000 per semester  \n- Library & Lab Fee: ₹9,000 per year  \n- Total Estimated Cost (4 Years): ₹6,00,000"
+        ]
+      },
+      {
+        "tag": "fees_civil",
+        "patterns": [
+          "What is the fee for Civil?",
+          "Tell me the tuition fee for Civil Engineering",
+          "How much does Civil cost per year?"
+        ],
+        "responses": [
+          "✔ **Civil Fee Structure:**  \n- Tuition Fee: ₹1,30,000 per year  \n- Examination Fee: ₹5,000 per semester  \n- Library & Lab Fee: ₹8,000 per year  \n- Total Estimated Cost (4 Years): ₹5,60,000"
+        ]
+      },
+      {
+        "tag": "fees_mech",
+        "patterns": [
+          "What is the fee for Mechanical?",
+          "Tell me the tuition fee for Mechanical Engineering",
+          "How much does Mechanical cost per year?"
+        ],
+        "responses": [
+          "✔ **Mechanical Fee Structure:**  \n- Tuition Fee: ₹1,35,000 per year  \n- Examination Fee: ₹5,000 per semester  \n- Library & Lab Fee: ₹9,000 per year  \n- Total Estimated Cost (4 Years): ₹5,80,000"
+        ]
+      },
+      {
+        "tag": "fees_mba",
+        "patterns": [
+          "What is the fee for MBA?",
+          "Tell me the tuition fee for Master of Business Administration",
+          "How much does MBA cost per year?"
+        ],
+        "responses": [
+          "✔ **MBA Fee Structure:**  \n- Tuition Fee: ₹2,00,000 per year  \n- Examination Fee: ₹10,000 per semester  \n- Library & Lab Fee: ₹15,000 per year  \n- Total Estimated Cost (2 Years): ₹4,50,000"
+        ]
+      },
+      {
+        "tag": "faculty_cse_rce",
+        "patterns": [
+          "Who are the CSE faculty at Ramachandra College of Engineering?",
+          "List the Computer Science faculty members at RCE Eluru",
+          "CSE department staff at Ramachandra College Eluru"
+        ],
+        "responses": [
+          "✔ **CSE Faculty at Ramachandra College of Engineering, Eluru:**\n\n1. **Dr. Chamundeswari** – Professor & Head of Department (HOD), 24 years of experience.\n2. **Dr. Adidela Daveedu Raju** – Professor, 21 years of experience.\n3. **Mrs. Siva Ganga Badipati** – Assistant Professor, tenure from 2021 to 2023.\n4. **Dr. Bazani Shaik** – Faculty member.\n5. **Mr. Rajendra Kodamanchili** – Faculty member.\n6. **Ms. Vemuri JayaManasa** – Faculty member.\n7. **Mr. Dukkipti Venkanna Babu** – Faculty member.\n\nFor more details, please visit the [official faculty page](https://www.rcee.ac.in/Faculty)."
+        ]
+      },
+      {
+        "tag": "faculty_eee_rce",
+        "patterns": [
+          "Who are the EEE faculty at Ramachandra College of Engineering?",
+          "List the Electrical and Electronics Engineering faculty members at RCE Eluru",
+          "EEE department staff at Ramachandra College Eluru"
+        ],
+        "responses": [
+          "✔ **EEE Faculty at Ramachandra College of Engineering, Eluru:**\n\n1. **Ms. S. Jayalakshmi** – Professor with 20 years of experience. [LinkedIn Profile](https://in.linkedin.com/in/jayalakshmi-eeehod-07b690141)\n2. **Dr. Vadivelu** – Professor with 14 years of experience.\n3. **Dr. Jarabala Ranga** – Associate Professor and Dean of the Research and Development Cell. [LinkedIn Profile](https://in.linkedin.com/in/dr-jarabala-ranga-675a8a176)\n4. **Dr. S K B Pradeepkumar Ch** – Assistant Professor with expertise in Electrical and Electronic Engineering. [Vidwan Profile](https://vidwan.inflibnet.ac.in/profile/251991)\n\nFor more details, please visit the [official faculty page](https://www.rcee.ac.in/Faculty)."
+        ]
+      },
+      {
+        "tag": "faculty_civil_rce",
+        "patterns": [
+          "Who are the Civil Engineering faculty at Ramachandra College of Engineering?",
+          "List the Civil Engineering faculty members at RCE Eluru",
+          "Civil department staff at Ramachandra College Eluru"
+        ],
+        "responses": [
+          "✔ **Civil Engineering Faculty at Ramachandra College of Engineering, Eluru:**\n\n1. **Dr. N. Siva Kumar** – Associate Professor and Head of the Department (HOD), Civil Engineering. [Source](https://collegedunia.com/college/14746-ramachandra-college-of-engineering-rce-eluru/faculty)\n\n2. **Mr. A. Narendra Kumar** – Professor, Civil Engineering, with 10 years of experience. [Source](https://www.collegebatch.com/2717-ramachandra-college-of-engineering-faculty-profiles-eluru)\n\n3. **Mr. D. Leela Prasad** – Assistant Professor, Civil Engineering, with 4 years of experience. [Source](https://www.collegebatch.com/2717-ramachandra-college-of-engineering-faculty-profiles-eluru)\n\n4. **Ms. Sarika** – Assistant Professor, Civil Engineering. [LinkedIn Profile](https://in.linkedin.com/in/sarika-civil-770a6a145)\n\n5. **Mr. Paidimukkala Ashok** – Assistant Professor, Civil Engineering, with expertise in Structural Analysis. [Vidwan Profile](https://rcee.irins.org/profile/253728)\n\nFor more details, please visit the [official faculty page](https://www.rcee.ac.in/Faculty)."
+        ]
+      },
+      {
+        "tag": "faculty_mech_rce",
+        "patterns": [
+          "Who are the Mechanical Engineering faculty at Ramachandra College of Engineering?",
+          "List the Mechanical Engineering faculty members at RCE Eluru",
+          "MECH department staff at Ramachandra College Eluru"
+        ],
+        "responses": [
+          "✔ **Mechanical Engineering Faculty at Ramachandra College of Engineering, Eluru:**\n\n1. **Dr. L. Rashidhar** – Professor & Head of Department (HOD), Mechanical Engineering. :contentReference[oaicite:2]{index=2}\n\n2. **Dr. Raffi Mohammed** – Professor with extensive research contributions in Mechanical Engineering. :contentReference[oaicite:3]{index=3}\n\n3. **Mr. Vimal Teja Mogadati** – Associate Professor, Mechanical Engineering. :contentReference[oaicite:4]{index=4}\n\n4. **Mr. V. Raghavendrarao Mathe** – Assistant Professor with experience since 2020. :contentReference[oaicite:5]{index=5}\n\n5. **Dr. Bazani Shaik** – Professor with over 15 years of teaching experience and 4 years in research and industry. :contentReference[oaicite:6]{index=6}\n\nFor more details, please visit the [official faculty page](https://www.rcee.ac.in/Faculty)."
+        ]
+      },
+      {
+        "tag": "cutoff_ranks_rce",
+        "patterns": [
+          "What is the cut-off rank for RCE Eluru?",
+          "Tell me the AP EAMCET cut-off for Ramachandra College",
+          "Cut-off ranks for different branches in RCE Eluru"
+        ],
+        "responses": [
+          "✔ **AP EAMCET 2024 Cut-off Ranks:** CSE-38,861, AI & DS-49,639, AI & ML-47,452, Cyber Security-54,450, IoT-65,862, ECE-62,176, EEE-83,472, MECH-85,553, CIVIL-97,599. **AP ICET 2024 Cut-off for MBA:** 40,305. Visit [RCE Eluru Admission Page](https://www.rcee.ac.in/) for details."
+        ]
+      },
+      
+
+
+
+    {
+      "tag": "extracurricular",
+      "patterns": [
+        "What extracurricular activities are available?",
+        "Tell me about clubs and societies",
+        "Are there any student organizations?",
+        "What activities can I participate in?"
+      ],
+      "responses": [
+        "RCE offers a variety of extracurricular activities including sports, cultural events, and student clubs. Some popular clubs include the Photography Club, Debate Club, and Robotics Club. Students are encouraged to participate in these activities for overall development."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "What scholarships are available?",
+        "Tell me about scholarship opportunities",
+        "Are there any financial aid options?",
+        "How can I apply for a scholarship?"
+      ],
+      "responses": [
+        "RCE offers various scholarships based on merit and financial need. Students can apply for government scholarships and institutional scholarships. For more details, visit the scholarship section on our website or contact the administration office."
+      ]
+    },
+    {
+      "tag": "internships",
+      "patterns": [
+        "What internship opportunities are available?",
+        "Does the college provide internship support?",
+        "How can I find an internship?",
+        "Tell me about internship programs"
+      ],
+      "responses": [
+        "RCE has strong industry connections and provides internship opportunities for students in various fields. The placement cell assists students in finding suitable internships based on their interests and career goals."
+      ]
+    },
+    {
+      "tag": "workshops",
+      "patterns": [
+        "Are there any workshops conducted?",
+        "What workshops are available for students?",
+        "Tell me about skill development workshops",
+        "Do you have any training sessions?"
+      ],
+      "responses": [
+        "RCE regularly conducts workshops on emerging technologies, soft skills, and career development. These workshops are designed to enhance students' skills and prepare them for the job market."
+      ]
+    },
+    {
+      "tag": "alumni",
+      "patterns": [
+        "Tell me about the alumni network",
+        "What is the alumni association?",
+        "How can I connect with alumni?",
+        "Are there any alumni events?"
+      ],
+      "responses": [
+        "RCE has a strong alumni network that actively engages with current students. The alumni association organizes events, mentorship programs, and networking opportunities to help students connect with successful graduates."
+      ]
+    },
+    {
+      "tag": "student_support",
+      "patterns": [
+        "What support services are available for students?",
+        "Tell me about counseling services",
+        "Are there any health services on campus?",
+        "What resources are available for student well-being?"
+      ],
+      "responses": [
+        "RCE provides various support services including academic counseling, mental health support, and health services. The college is committed to ensuring the well-being of its students."
+      ]
+    },
+    {
+      "tag": "academic_calendar",
+      "patterns": [
+        "What is the academic calendar?",
+        "When does the semester start?",
+        "Tell me about important dates in the academic year",
+        "What are the holidays in the academic calendar?"
+      ],
+      "responses": [
+        "You can find the academic calendar with important dates, semester start and end dates, and holidays at https://www.rce.ac.in/study/academic-calendars."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "How can I give feedback?",
+        "Is there a feedback form?",
+        "Tell me about the feedback process",
+        "How can I share my suggestions?"
+      ],
+      "responses": [
+        "Students can provide feedback through the official feedback form available on the college website. Your suggestions are valuable for improving the college experience."
+      ]
+    },
+    {
+      "tag": "events_calendar",
+      "patterns": [
+        "What events are coming up?",
+        "Tell me about the events calendar",
+        "Are there any upcoming college events?",
+        "What events are organized this semester?"
+      ],
+      "responses": [
+        "You can check the events calendar for upcoming events, fests, and activities at RCE on our official website or the college notice board."
+      ]
+    },
+    {
+      "tag": "transportation_info",
+      "patterns": [
+        "Tell me about transportation facilities",
+        "What are the transport options for students?",
+        "Is there a bus service?",
+        "How can I get to college?"
+      ],
+      "responses": [
+        "RCE provides transportation facilities with a fleet of buses covering major routes. For detailed bus routes and schedules, please visit the official website: https://www.rcee.ac.in/transportlink."
+      ]
+    },
+    {
+      "tag": "course_details",
+      "patterns": [
+        "Tell me about the course structure",
+        "What is the curriculum for my course?",
+        "Can you provide details about the course?",
+        "What subjects are included in my program?"
+      ],
+      "responses": [
+        "Each program at RCE has a well-defined curriculum that includes core subjects, electives, and practical training. For detailed course structures, please visit the specific department page on our website."
+      ]
+    },
+    {
+      "tag": "faculty_info",
+      "patterns": [
+        "Who are the faculty members?",
+        "Tell me about the professors in my department",
+        "What is the faculty strength at RCE?",
+        "Can you provide details about the teaching staff?"
+      ],
+      "responses": [
+        "RCE has a highly qualified faculty with expertise in various fields. You can find detailed profiles of our faculty members on the respective department pages of our website."
+      ]
+    },
+    {
+      "tag": "admission_criteria",
+      "patterns": [
+        "What are the admission criteria?",
+        "Tell me about the eligibility for admission",
+        "What qualifications do I need to apply?",
+        "How can I qualify for admission?"
+      ],
+      "responses": [
+        "The admission criteria vary by program. Generally, candidates must have completed their 10+2 education with the required percentage in relevant subjects. For detailed eligibility criteria, please visit the admission section of our website."
+      ]
+    },
+    {
+      "tag": "placement_statistics",
+      "patterns": [
+        "What are the placement statistics?",
+        "Tell me about the placement record",
+        "How many students get placed each year?",
+        "What companies recruit from RCE?"
+      ],
+      "responses": [
+        "RCE has a strong placement record with a high percentage of students getting placed in reputed companies. For detailed placement statistics and the list of companies that visit for recruitment, please visit the placement section on our website."
+      ]
+    },
+    {
+      "tag": "student_life",
+      "patterns": [
+        "What is student life like at RCE?",
+        "Tell me about the campus culture",
+        "What activities do students engage in?",
+        "How is the overall environment for students?"
+      ],
+      "responses": [
+        "Student life at RCE is vibrant and engaging, with numerous activities, clubs, and events. The campus culture promotes learning, collaboration, and personal growth, making it a great place for students to thrive."
+      ]
+    },
+    {
+      "tag": "health_services",
+      "patterns": [
+        "What health services are available on campus?",
+        "Is there a medical facility at RCE?",
+        "Tell me about health support for students",
+        "Are there any health programs offered?"
+      ],
+      "responses": [
+        "RCE provides health services on campus, including a medical center with qualified staff. Students can access medical care, health check-ups, and counseling services as needed."
+      ]
+    },
+    {
+      "tag": "library_services",
+      "patterns": [
+        "What services does the library offer?",
+        "Tell me about the library facilities",
+        "Are there any digital resources available?",
+        "How can I access library services?"
+      ],
+      "responses": [
+        "The RCE library offers a wide range of services including access to physical and digital books, journals, and research materials. Students can also use computers for research and study purposes. For more details, visit the library section on our website."
+      ]
+    },
+    {
+      "tag": "transportation_fees",
+      "patterns": [
+        "What are the transportation fees?",
+        "How much do I need to pay for transport?",
+        "Tell me about the bus service charges",
+        "Are there any additional transport costs?"
+      ],
+      "responses": [
+        "The transportation fees vary based on the distance from the college. Generally, the fees range from ₹10,000 to ₹15,000 per year. For detailed fee structures, please refer to the transport section on our website."
+      ]
+    },
+    {
+      "tag": "events_participation",
+      "patterns": [
+        "How can I participate in college events?",
+        "Are students allowed to join events?",
+        "Tell me about event participation",
+        "What events can I join?"
+      ],
+      "responses": [
+        "Students are encouraged to participate in various college events, including cultural fests, technical competitions, and sports activities. You can sign up for events through the student portal or by contacting the event coordinators."
+      ]
+    },
+    {
+      "tag": "career_guidance",
+      "patterns": [
+        "Is there career guidance available?",
+        "Tell me about career counseling services",
+        "What support does RCE provide for career planning?",
+        "How can I get help with my career?"
+      ],
+      "responses": [
+        "RCE offers career guidance services to help students plan their careers effectively. This includes counseling sessions, workshops, and access to resources for job searching and interview preparation."
+      ]
+    },
+    {
+      "tag": "academic_integrity",
+      "patterns": [
+        "What is academic integrity?",
+        "Tell me about the college's policy on cheating",
+        "How does RCE handle academic dishonesty?",
+        "What are the consequences of plagiarism?"
+      ],
+      "responses": [
+        "RCE upholds a strong policy on academic integrity, emphasizing honesty and ethical behavior in all academic work. Violations such as cheating and plagiarism are taken seriously and may result in disciplinary action. For more details, refer to the academic integrity policy on our website."
+      ]
+    },
+    {
+      "tag": "student_feedback",
+      "patterns": [
+        "How can I provide feedback about the college?",
+        "Is there a feedback mechanism for students?",
+        "Tell me about the student feedback process",
+        "How does RCE collect student opinions?"
+      ],
+      "responses": [
+        "RCE values student feedback and has established mechanisms for collecting it, including surveys and suggestion boxes. Students can also provide feedback through the official website or during student meetings."
+      ]
+    },
+    {
+      "tag": "study_materials",
+      "patterns": [
+        "Where can I find study materials?",
+        "Are there resources for exam preparation?",
+        "Tell me about the study resources available",
+        "How can I access lecture notes?"
+      ],
+      "responses": [
+        "Students can access study materials, including lecture notes and resources, through the college's online portal. Additionally, the library offers a range of textbooks and reference materials for various subjects."
+      ]
+    },
+    {
+      "tag": "online_classes",
+      "patterns": [
+        "Are there online classes available?",
+        "How does RCE handle online learning?",
+        "Tell me about the virtual classroom experience",
+        "What platforms are used for online classes?"
+      ],
+      "responses": [
+        "RCE offers online classes through various platforms to ensure continuity in learning. Students can access recorded lectures, participate in live sessions, and engage in discussions through the college's online learning management system."
+      ]
+    },
+    {
+      "tag": "mentorship_program",
+      "patterns": [
+        "Is there a mentorship program?",
+        "How can I get a mentor?",
+        "Tell me about the mentoring opportunities",
+        "What support does RCE provide for mentorship?"
+      ],
+      "responses": [
+        "RCE has a mentorship program that pairs students with faculty or industry professionals to provide guidance and support. Students can apply for mentorship through the student services office."
+      ]
+    },
+    {
+      "tag": "community_service",
+      "patterns": [
+        "Are there community service opportunities?",
+        "Tell me about social responsibility initiatives",
+        "How can I get involved in community service?",
+        "What programs does RCE have for social outreach?"
+      ],
+      "responses": [
+        "RCE encourages students to participate in community service and social responsibility initiatives. Various programs are organized throughout the year, and students can join through the NSS (National Service Scheme) or other student organizations."
+      ]
+    },
+    {
+      "tag": "study_groups",
+      "patterns": [
+        "Are there study groups I can join?",
+        "How can I find a study partner?",
+        "Tell me about collaborative learning opportunities",
+        "What resources are available for group study?"
+      ],
+      "responses": [
+        "RCE promotes collaborative learning through study groups and peer tutoring programs. Students can form study groups with classmates or join existing ones through the academic support office."
+      ]
+    },
+    {
+      "tag": "career_fairs",
+      "patterns": [
+        "When is the next career fair?",
+        "Tell me about upcoming job fairs",
+        "How can I participate in career fairs?",
+        "What companies will be at the next career fair?"
+      ],
+      "responses": [
+        "RCE organizes career fairs regularly, providing students with opportunities to meet potential employers. Details about upcoming career fairs, including dates and participating companies, can be found on the placement section of our website."
+      ]
+    },
+    {
+      "tag": "international_students",
+      "patterns": [
+        "What support is available for international students?",
+        "Tell me about the services for foreign students",
+        "Are there any special programs for international students?",
+        "How can I get help as an international student?"
+      ],
+      "responses": [
+        "RCE offers various support services for international students, including orientation programs, counseling, and assistance with visa and accommodation issues. The international office is available to help with any queries."
+      ]
+    },
+    {
+      "tag": "environmental_initiatives",
+      "patterns": [
+        "What environmental initiatives does RCE have?",
+        "Tell me about sustainability programs",
+        "How does the college promote environmental awareness?",
+        "Are there any green initiatives on campus?"
+      ],
+      "responses": [
+        "RCE is committed to sustainability and has implemented various environmental initiatives, including waste management programs, tree planting drives, and awareness campaigns. Students are encouraged to participate in these initiatives."
+      ]
+    },
+    {
+      "tag": "financial_aid",
+      "patterns": [
+        "What financial aid options are available?",
+        "Tell me about scholarships and grants",
+        "How can I apply for financial assistance?",
+        "Are there any loans available for students?"
+      ],
+      "responses": [
+        "RCE offers various financial aid options, including scholarships, grants, and student loans. Students can apply for financial assistance through the financial aid office or the college's website."
+      ]
+    },
+    {
+      "tag": "academic_resources",
+      "patterns": [
+        "What academic resources are available?",
+        "Tell me about tutoring services",
+        "Are there any academic support programs?",
+        "How can I get help with my studies?"
+      ],
+      "responses": [
+        "RCE provides a range of academic resources, including tutoring services, study skills workshops, and access to learning centers. Students can seek help through the academic support office."
+      ]
+    },
+    {
+      "tag": "class_schedule",
+      "patterns": [
+        "How can I find my class schedule?",
+        "Where can I view my timetable?",
+        "Tell me about the class schedule for my program",
+        "What is the process to check my classes?"
+      ],
+      "responses": [
+        "Students can view their class schedules on the college's online portal. Timetables are updated regularly, and students are encouraged to check for any changes."
+      ]
+    },
+    {
+      "tag": "exam_schedule",
+      "patterns": [
+        "When are the exams scheduled?",
+        "Tell me about the exam timetable",
+        "How can I find my exam dates?",
+        "What is the process for checking exam schedules?"
+      ],
+      "responses": [
+        "The exam schedule is published on the college's website and is also available on the student portal. Students should check regularly for updates and any changes to the exam timetable."
+      ]
+    },
+    {
+      "tag": "course_registration",
+      "patterns": [
+        "How do I register for courses?",
+        "What is the process for course enrollment?",
+        "Tell me about course registration deadlines",
+        "When can I sign up for classes?"
+      ],
+      "responses": [
+        "Course registration typically occurs at the beginning of each semester. Students can register for courses through the online student portal. Be sure to check the registration deadlines to ensure you enroll on time."
+      ]
+    },
+    {
+      "tag": "study_abroad",
+      "patterns": [
+        "Are there study abroad programs?",
+        "Tell me about international exchange opportunities",
+        "How can I apply for a study abroad program?",
+        "What countries can I study in?"
+      ],
+      "responses": [
+        "RCE offers various study abroad programs and international exchange opportunities. Students can apply through the international office, which provides information on available programs and partner institutions."
+      ]
+    },
+    {
+      "tag": "student_governance",
+      "patterns": [
+        "What is student governance?",
+        "Tell me about the student council",
+        "How can I get involved in student leadership?",
+        "What roles are available in student governance?"
+      ],
+      "responses": [
+        "RCE encourages student participation in governance through the student council and various committees. Students can run for positions in the council or join committees to represent their peers and contribute to decision-making."
+      ]
+    },
+    {
+      "tag": "academic_advising",
+      "patterns": [
+        "What is academic advising?",
+        "How can I get academic advice?",
+        "Tell me about the advising process",
+        "Who can I talk to for academic guidance?"
+      ],
+      "responses": [
+        "RCE provides academic advising services to help students plan their academic paths, select courses, and address any academic concerns. Students can schedule appointments with academic advisors through the student services office."
+      ]
+    },
+    {
+      "tag": "technology_support",
+      "patterns": [
+        "What technology support is available?",
+        "Tell me about IT services for students",
+        "How can I get help with technical issues?",
+        "Are there resources for online learning support?"
+      ],
+      "responses": [
+        "RCE offers technology support services, including help with IT issues, access to computer labs, and resources for online learning. Students can contact the IT helpdesk for assistance."
+      ]
+    },
+    {
+      "tag": "transportation_safety",
+      "patterns": [
+        "What safety measures are in place for transportation?",
+        "Tell me about the safety of the college buses",
+        "How does RCE ensure student safety during transport?",
+        "Are there any safety protocols for transportation?"
+      ],
+      "responses": [
+        "RCE prioritizes student safety in transportation by implementing safety protocols, including GPS tracking on buses, trained drivers, and regular vehicle maintenance. Students are encouraged to report any safety concerns to the transport department."
+      ]
+    },
+    {
+      "tag": "housing",
+      "patterns": [
+        "What are the housing options available?",
+        "Tell me about the dormitories",
+        "How can I apply for on-campus housing?",
+        "What are the facilities in the hostel?"
+      ],
+      "responses": [
+        "RCE offers on-campus housing options for students, including separate dormitories for boys and girls. Facilities typically include Wi-Fi, common areas, and meal services. Students can apply for housing through the student services office."
+      ]
+    },
+    {
+      "tag": "dining_services",
+      "patterns": [
+        "What dining options are available on campus?",
+        "Tell me about the cafeteria",
+        "Are there meal plans for students?",
+        "What food is served in the canteen?"
+      ],
+      "responses": [
+        "RCE has a cafeteria that offers a variety of meal options, including vegetarian and non-vegetarian dishes. Meal plans are available for students, and the canteen serves breakfast, lunch, and dinner."
+      ]
+    },
+    {
+      "tag": "sports_facilities",
+      "patterns": [
+        "What sports facilities are available?",
+        "Tell me about the gym and sports complex",
+        "Are there any sports teams I can join?",
+        "What activities are offered in sports?"
+      ],
+      "responses": [
+        "RCE has a well-equipped sports complex that includes facilities for various sports such as basketball, cricket, football, and badminton. Students can join sports teams and participate in inter-college competitions."
+      ]
+    },
+    {
+      "tag": "cultural_events",
+      "patterns": [
+        "What cultural events are organized?",
+        "Tell me about the annual fest",
+        "Are there any cultural programs at RCE?",
+        "How can I participate in cultural activities?"
+      ],
+      "responses": [
+        "RCE organizes various cultural events throughout the year, including an annual fest that features performances, competitions, and exhibitions. Students can participate by joining cultural clubs or volunteering for event organization."
+      ]
+    },
+    {
+      "tag": "transportation_routes",
+      "patterns": [
+        "What are the bus routes for transportation?",
+        "Tell me about the transportation schedule",
+        "How can I find the bus routes?",
+        "Are there any changes in transportation routes?"
+      ],
+      "responses": [
+        "RCE provides detailed information about bus routes and schedules on the transportation section of the college website. Students can also check for any updates or changes in routes through the transport department."
+      ]
+    },
+    {
+      "tag": "student_rights",
+      "patterns": [
+        "What are my rights as a student?",
+        "Tell me about student rights and responsibilities",
+        "How does RCE protect student rights?",
+        "What should I do if my rights are violated?"
+      ],
+      "responses": [
+        "RCE is committed to upholding student rights and ensuring a safe and respectful environment. Students can refer to the student handbook for detailed information on their rights and responsibilities. If any rights are violated, students are encouraged to report the issue to the student affairs office."
+      ]
+    },
+    {
+      "tag": "mental_health_resources",
+      "patterns": [
+        "What mental health resources are available?",
+        "Tell me about counseling services",
+        "How can I get help for mental health issues?",
+        "Are there any support groups on campus?"
+      ],
+      "responses": [
+        "RCE provides mental health resources, including counseling services and support groups. Students can access these services through the counseling center, where trained professionals are available to help with various mental health concerns."
+      ]
+    },
+    {
+      "tag": "academic_integrity_policy",
+      "patterns": [
+        "What is the academic integrity policy?",
+        "Tell me about plagiarism rules",
+        "How does RCE handle academic dishonesty?",
+        "What are the consequences of cheating?"
+      ],
+      "responses": [
+        "RCE has a strict academic integrity policy that prohibits cheating, plagiarism, and other forms of academic dishonesty. Violations may result in disciplinary action, including failing grades or expulsion. Students are encouraged to familiarize themselves with the policy."
+      ]
+    },
+    {
+      "tag": "community_engagement",
+      "patterns": [
+        "What community engagement opportunities are available?",
+        "Tell me about outreach programs",
+        "How can I get involved in community service?",
+        "Are there any partnerships with local organizations?"
+      ],
+      "responses": [
+        "RCE encourages students to engage with the community through various outreach programs and partnerships with local organizations. Students can participate in community service projects and initiatives that promote social responsibility."
+      ]
+    },
+    {
+      "tag": "technology_resources",
+      "patterns": [
+        "What technology resources are available for students?",
+        "Tell me about computer labs and software access",
+        "Are there any tech support services?",
+        "How can I access online learning tools?"
+      ],
+      "responses": [
+        "RCE provides access to well-equipped computer labs and various software resources for students. Additionally, tech support services are available to assist with any technical issues. Students can access online learning tools through the college's learning management system."
+      ]
+    },
+    {
+      "tag": "financial_literacy",
+      "patterns": [
+        "What financial literacy resources are available?",
+        "Tell me about budgeting workshops",
+        "How can I learn about managing my finances?",
+        "Are there any programs for financial education?"
+      ],
+      "responses": [
+        "RCE offers financial literacy programs, including workshops on budgeting, saving, and managing student loans. Students can participate in these programs to enhance their financial knowledge and skills."
+      ]
+    },
+    {
+      "tag": "emergency_procedures",
+      "patterns": [
+        "What are the emergency procedures on campus?",
+        "Tell me about safety protocols",
+        "How should I respond in case of an emergency?",
+        "What should I do during a fire drill?"
+      ],
+      "responses": [
+        "RCE has established emergency procedures to ensure student safety. In case of an emergency, students should follow the instructions provided by faculty and staff. Fire drills and safety protocols are conducted regularly to prepare students."
+      ]
+    },
+    {
+      "tag": "transportation_safety",
+      "patterns": [
+        "What safety measures are in place for transportation?",
+        "Tell me about the safety of the college buses",
+        "How does RCE ensure student safety during transport?",
+        "Are there any safety protocols for transportation?"
+      ],
+      "responses": [
+        "RCE prioritizes student safety in transportation by implementing safety protocols, including GPS tracking on buses, trained drivers, and regular vehicle maintenance. Students are encouraged to report any safety concerns to the transport department."
+      ]
+    },
+    {
+      "tag": "academic_calendar",
+      "patterns": [
+        "What is the academic calendar?",
+        "When does the semester start?",
+        "Tell me about important dates in the academic year",
+        "What are the holidays in the academic calendar?"
+      ],
+      "responses": [
+        "You can find the academic calendar with important dates, semester start and end dates, and holidays at https://www.rce.ac.in/study/academic-calendars."
+      ]
+    },
+    {
+      "tag": "student_services",
+      "patterns": [
+        "What student services are available?",
+        "Tell me about support services for students",
+        "How can I access student services?",
+        "What resources are available for student support?"
+      ],
+      "responses": [
+        "RCE offers a variety of student services, including academic advising, counseling, career services, and health services. Students can access these resources through the student services office or the college website."
+      ]
+    },
+    {
+      "tag": "work_study_programs",
+      "patterns": [
+        "Are there work-study programs available?",
+        "Tell me about student employment opportunities",
+        "How can I apply for a work-study position?",
+        "What jobs are available for students on campus?"
+      ],
+      "responses": [
+        "RCE offers work-study programs that allow students to work part-time while studying. Students can apply for positions through the student employment office, which lists available jobs on campus."
+      ]
+    },
+    {
+      "tag": "peer_tutoring",
+      "patterns": [
+        "Is there a peer tutoring program?",
+        "How can I get help from a peer tutor?",
+        "Tell me about tutoring services offered by students",
+        "Are there any study groups I can join?"
+      ],
+      "responses": [
+        "RCE has a peer tutoring program where students can receive help from fellow students in various subjects. Students can sign up for tutoring sessions through the academic support office."
+      ]
+    },
+    {
+      "tag": "student_clubs",
+      "patterns": [
+        "What student clubs are available?",
+        "Tell me about extracurricular activities",
+        "How can I join a student club?",
+        "What organizations can I participate in?"
+      ],
+      "responses": [
+        "RCE has a variety of student clubs and organizations that cater to different interests, including academic, cultural, and recreational activities. Students can join clubs by signing up during club fairs or contacting club leaders."
+      ]
+    },
+    {
+      "tag": "career_services",
+      "patterns": [
+        "What career services are available?",
+        "Tell me about job placement assistance",
+        "How can I get help with my resume?",
+        "Are there workshops for interview preparation?"
+      ],
+      "responses": [
+        "RCE offers comprehensive career services, including job placement assistance, resume writing workshops, and interview preparation sessions. Students can access these services through the career services office."
+      ]
+    },
+    {
+      "tag": "study_skills",
+      "patterns": [
+        "What resources are available for improving study skills?",
+        "Tell me about study skills workshops",
+        "How can I enhance my learning techniques?",
+        "Are there any tips for effective studying?"
+      ],
+      "responses": [
+        "RCE provides resources and workshops focused on improving study skills, time management, and effective learning techniques. Students can participate in these workshops to enhance their academic performance."
+      ]
+    },
+    {
+      "tag": "financial_literacy",
+      "patterns": [
+        "What financial literacy resources are available?",
+        "Tell me about budgeting workshops",
+        "How can I learn about managing my finances?",
+        "Are there any programs for financial education?"
+      ],
+      "responses": [
+        "RCE offers financial literacy programs, including workshops on budgeting, saving, and managing student loans. Students can participate in these programs to enhance their financial knowledge and skills."
+      ]
+    },
+    {
+      "tag": "emergency_procedures",
+      "patterns": [
+        "What are the emergency procedures on campus?",
+        "Tell me about safety protocols",
+        "How should I respond in case of an emergency?",
+        "What should I do during a fire drill?"
+      ],
+      "responses": [
+        "RCE has established emergency procedures to ensure student safety. In case of an emergency, students should follow the instructions provided by faculty and staff. Fire drills and safety protocols are conducted regularly to prepare students."
+      ]
+    },
+    {
+      "tag": "transportation_safety",
+      "patterns": [
+        "What safety measures are in place for transportation?",
+        "Tell me about the safety of the college buses",
+        "How does RCE ensure student safety during transport?",
+        "Are there any safety protocols for transportation?"
+      ],
+      "responses": [
+        "RCE prioritizes student safety in transportation by implementing safety protocols, including GPS tracking on buses, trained drivers, and regular vehicle maintenance. Students are encouraged to report any safety concerns to the transport department."
+      ]
+    },
+    {
+      "tag": "academic_calendar",
+      "patterns": [
+        "What is the academic calendar?",
+        "When does the semester start?",
+        "Tell me about important dates in the academic year",
+        "What are the holidays in the academic calendar?"
+      ],
+      "responses": [
+        "You can find the academic calendar with important dates, semester start and end dates, and holidays at https://www.rce.ac.in/study/academic-calendars."
+      ]
+    },
+    {
+      "tag": "student_services",
+      "patterns": [
+        "What student services are available?",
+        "Tell me about support services for students",
+        "How can I access student services?",
+        "What resources are available for student support?"
+      ],
+      "responses": [
+        "RCE offers a variety of student services, including academic advising, counseling, career services, and health services. Students can access these resources through the student services office or the college website."
+      ]
+    },
+    {
+      "tag": "work_study_programs",
+      "patterns": [
+        "Are there work-study programs available?",
+        "Tell me about student employment opportunities",
+        "How can I apply for a work-study position?",
+        "What jobs are available for students on campus?"
+      ],
+      "responses": [
+        "RCE offers work-study programs that allow students to work part-time while studying. Students can apply for positions through the student employment office, which lists available jobs on campus."
+      ]
+    },
+    {
+      "tag": "peer_tutoring",
+      "patterns": [
+        "Is there a peer tutoring program?",
+        "How can I get help from a peer tutor?",
+        "Tell me about tutoring services offered by students",
+        "Are there any study groups I can join?"
+      ],
+      "responses": [
+        "RCE has a peer tutoring program where students can receive help from fellow students in various subjects. Students can sign up for tutoring sessions through the academic support office."
+      ]
+    },
+    {
+      "tag": "student_clubs",
+      "patterns": [
+        "What student clubs are available?",
+        "Tell me about extracurricular activities",
+        "How can I join a student club?",
+        "What organizations can I participate in?"
+      ],
+      "responses": [
+        "RCE has a variety of student clubs and organizations that cater to different interests, including academic, cultural, and recreational activities. Students can join clubs by signing up during club fairs or contacting club leaders."
+      ]
+    },
+    {
+      "tag": "career_services",
+      "patterns": [
+        "What career services are available?",
+        "Tell me about job placement assistance",
+        "How can I get help with my resume?",
+        "Are there workshops for interview preparation?"
+      ],
+      "responses": [
+        "RCE offers comprehensive career services, including job placement assistance, resume writing workshops, and interview preparation sessions. Students can access these services through the career services office."
+      ]
+    },
+    {
+      "tag": "study_skills",
+      "patterns": [
+        "What resources are available for improving study skills?",
+        "Tell me about study skills workshops",
+        "How can I enhance my learning techniques?",
+        "Are there any tips for effective studying?"
+      ],
+      "responses": [
+        "RCE provides resources and workshops focused on improving study skills, time management, and effective learning techniques. Students can participate in these workshops to enhance their academic performance."
+      ]
+    },
+    {
+      "tag": "technology_use",
+      "patterns": [
+        "What technology is available for students?",
+        "Tell me about the computer labs",
+        "Are there any software resources I can access?",
+        "How can I use technology for my studies?"
+      ],
+      "responses": [
+        "RCE provides access to modern computer labs equipped with the latest software and technology. Students can use these resources for their coursework, projects, and research. Additionally, online learning tools are available through the college's learning management system."
+      ]
+    },
+    {
+      "tag": "academic_performance",
+      "patterns": [
+        "How can I improve my academic performance?",
+        "What resources are available for struggling students?",
+        "Tell me about academic support services",
+        "How can I get help if I'm failing a class?"
+      ],
+      "responses": [
+        "RCE offers various academic support services, including tutoring, study skills workshops, and counseling. Students who are struggling can reach out to academic advisors or the academic support office for personalized assistance."
+      ]
+    },
+    {
+      "tag": "class_participation",
+      "patterns": [
+        "How can I participate more in class?",
+        "What are the expectations for class participation?",
+        "Tell me about engaging in discussions",
+        "How can I contribute to group projects?"
+      ],
+      "responses": [
+        "Active participation in class is encouraged at RCE. Students can engage by asking questions, contributing to discussions, and collaborating with peers on group projects. Professors appreciate when students take initiative and share their insights."
+      ]
+    },
+    {
+      "tag": "academic_probation",
+      "patterns": [
+        "What is academic probation?",
+        "Tell me about the consequences of poor grades",
+        "How can I get off academic probation?",
+        "What support is available for students on probation?"
+      ],
+      "responses": [
+        "Academic probation occurs when a student's GPA falls below the required standard. Students on probation are encouraged to seek academic advising and utilize support services to improve their performance. Specific requirements for returning to good standing will be provided by the academic office."
+      ]
+    },
+    {
+      "tag": "course_feedback",
+      "patterns": [
+        "How can I give feedback on a course?",
+        "Is there a course evaluation process?",
+        "Tell me about providing feedback to professors",
+        "What is the process for course evaluations?"
+      ],
+      "responses": [
+        "RCE conducts course evaluations at the end of each semester, allowing students to provide feedback on their courses and instructors. Students can complete evaluations through the online portal, and their feedback is used to improve course quality."
+      ]
+    },
+    {
+      "tag": "graduation_requirements",
+      "patterns": [
+        "What are the requirements for graduation?",
+        "Tell me about the graduation process",
+        "How can I check if I'm eligible to graduate?",
+        "What steps do I need to take to graduate?"
+      ],
+      "responses": [
+        "To graduate from RCE, students must complete all required coursework, meet GPA requirements, and fulfill any additional program-specific criteria. Students can check their eligibility by consulting with their academic advisor and reviewing the graduation requirements on the college website."
+      ]
+    },
+    {
+      "tag": "study_abroad_application",
+      "patterns": [
+        "How do I apply for a study abroad program?",
+        "What is the application process for international exchange?",
+        "Tell me about deadlines for study abroad applications",
+        "Are there any requirements for studying abroad?"
+      ],
+      "responses": [
+        "To apply for a study abroad program, students should visit the international office for guidance on the application process, deadlines, and requirements. It's important to start the application early to ensure all necessary documents are prepared."
+      ]
+    },
+    {
+      "tag": "student_exchanges",
+      "patterns": [
+        "Are there student exchange programs?",
+        "Tell me about exchange opportunities with other universities",
+        "How can I participate in a student exchange?",
+        "What are the benefits of student exchange programs?"
+      ],
+      "responses": [
+        "RCE has partnerships with various universities for student exchange programs. These programs allow students to study abroad for a semester or year, gaining valuable international experience. Interested students should contact the international office for more information."
+      ]
+    },
+    {
+      "tag": "academic_resources_online",
+      "patterns": [
+        "What online academic resources are available?",
+        "Tell me about e-books and online journals",
+        "How can I access digital libraries?",
+        "Are there any online databases I can use?"
+      ],
+      "responses": [
+        "RCE provides access to a range of online academic resources, including e-books, online journals, and databases. Students can access these resources through the library's website using their student credentials."
+      ]
+    },
+    {
+      "tag": "student_safety",
+      "patterns": [
+        "What safety measures are in place for students?",
+        "Tell me about campus security",
+        "How does RCE ensure student safety?",
+        "Are there emergency contacts available?"
+      ],
+      "responses": [
+        "RCE prioritizes student safety with a dedicated campus security team, emergency response protocols, and safety awareness programs. Students can contact campus security for assistance and should familiarize themselves with emergency contacts and procedures."
+      ]
+    },
+    {
+      "tag": "personal_development",
+      "patterns": [
+        "What personal development resources are available?",
+        "Tell me about workshops for self-improvement",
+        "How can I enhance my soft skills?",
+        "Are there any programs for leadership development?"
+      ],
+      "responses": [
+        "RCE offers various personal development resources, including workshops on communication skills, leadership, and time management. Students are encouraged to participate in these programs to enhance their personal and professional growth."
+      ]
+    },
+    {
+      "tag": "networking_opportunities",
+      "patterns": [
+        "What networking opportunities are available for students?",
+        "Tell me about industry connections",
+        "How can I network with professionals?",
+        "Are there any events for networking?"
+      ],
+      "responses": [
+        "RCE organizes networking events, guest lectures, and industry visits that provide students with opportunities to connect with professionals and alumni. Students are encouraged to participate in these events to build their professional networks."
+      ]
+    },
+    {
+      "tag": "internship_application",
+      "patterns": [
+        "How do I apply for internships?",
+        "What is the process for finding an internship?",
+        "Tell me about internship application deadlines",
+        "Are there any resources for internship applications?"
+      ],
+      "responses": [
+        "To apply for internships, students can utilize the career services office, which provides resources and guidance on finding and applying for internships. It's important to check for application deadlines and prepare necessary documents like resumes and cover letters."
+      ]
+    },
+    {
+      "tag": "research_opportunities",
+      "patterns": [
+        "Are there research opportunities for students?",
+        "Tell me about undergraduate research programs",
+        "How can I get involved in research projects?",
+        "What support is available for student researchers?"
+      ],
+      "responses": [
+        "RCE encourages students to participate in research projects and offers various undergraduate research programs. Students can approach faculty members for research opportunities or inquire at the research office for available projects."
+      ]
+    },
+    {
+      "tag": "community_events",
+      "patterns": [
+        "What community events are organized by RCE?",
+        "Tell me about outreach programs",
+        "How can I participate in community service events?",
+        "Are there any volunteer opportunities?"
+      ],
+      "responses": [
+        "RCE organizes various community events and outreach programs throughout the year. Students can participate in these events to give back to the community and gain valuable experience. Information about upcoming events can be found on the college website or through the student services office."
+      ]
+    },
+    {
+      "tag": "academic_integrity_resources",
+      "patterns": [
+        "What resources are available for academic integrity?",
+        "Tell me about plagiarism prevention tools",
+        "How can I ensure my work is original?",
+        "Are there workshops on academic honesty?"
+      ],
+      "responses": [
+        "RCE provides resources to help students understand and uphold academic integrity, including workshops on plagiarism prevention and access to tools that check for originality. Students are encouraged to utilize these resources to maintain academic honesty."
+      ]
+    },
+    {
+      "tag": "time_management",
+      "patterns": [
+        "How can I improve my time management skills?",
+        "Tell me about workshops on time management",
+        "What resources are available for managing my schedule?",
+        "Are there tips for effective time management?"
+      ],
+      "responses": [
+        "RCE offers workshops and resources focused on time management skills. Students can learn techniques for prioritizing tasks, setting goals, and creating effective schedules to enhance their productivity."
+      ]
+    },
+    {
+      "tag": "study_environment",
+      "patterns": [
+        "What study environments are available on campus?",
+        "Tell me about quiet study areas",
+        "Are there group study rooms?",
+        "How can I find a good place to study?"
+      ],
+      "responses": [
+        "RCE provides various study environments, including quiet study areas, group study rooms, and collaborative spaces. Students can find suitable places to study in the library and designated study lounges across campus."
+      ]
+    },
+    {
+      "tag": "academic_support_services",
+      "patterns": [
+        "What academic support services are available?",
+        "Tell me about tutoring and mentoring programs",
+        "How can I get help with my studies?",
+        "Are there resources for academic success?"
+      ],
+      "responses": [
+        "RCE offers a range of academic support services, including tutoring, mentoring programs, and workshops on study skills. Students can access these resources through the academic support office to enhance their academic success."
+      ]
+    },
+    {
+      "tag": "student_experience",
+      "patterns": [
+        "What is the student experience like at RCE?",
+        "Tell me about student life and activities",
+        "How do students engage with the campus community?",
+        "What makes RCE unique for students?"
+      ],
+      "responses": [
+        "The student experience at RCE is vibrant and engaging, with numerous activities, clubs, and events that foster a sense of community. Students have the opportunity to participate in academic, cultural, and recreational activities, making RCE a unique and enriching environment."
+      ]
+    },
+    {
+      "tag": "health_and_wellness",
+      "patterns": [
+        "What health and wellness resources are available?",
+        "Tell me about fitness programs on campus",
+        "Are there any mental health services?",
+        "How can I maintain my well-being as a student?"
+      ],
+      "responses": [
+        "RCE offers various health and wellness resources, including fitness programs, mental health services, and wellness workshops. Students can access these resources through the health services office and participate in wellness activities organized on campus."
+      ]
+    },
+    {
+      "tag": "academic_policies",
+      "patterns": [
+        "What are the academic policies at RCE?",
+        "Tell me about grading policies",
+        "How does the college handle academic appeals?",
+        "What are the rules regarding attendance?"
+      ],
+      "responses": [
+        "RCE has established academic policies that govern grading, attendance, and academic appeals. Students are encouraged to familiarize themselves with these policies, which can be found in the student handbook or on the college website."
+      ]
+    },
+    {
+      "tag": "student_rights_and_responsibilities",
+      "patterns": [
+        "What are my rights as a student?",
+        "Tell me about student responsibilities",
+        "How does RCE protect student rights?",
+        "What should I do if my rights are violated?"
+      ],
+      "responses": [
+        "RCE is committed to upholding student rights and ensuring a respectful environment. Students have the right to express their opinions, participate in activities, and receive fair treatment. If any rights are violated, students should report the issue to the student affairs office."
+      ]
+    },
+    {
+      "tag": "academic_calendar_events",
+      "patterns": [
+        "What events are included in the academic calendar?",
+        "Tell me about important academic dates",
+        "How can I find out about semester start and end dates?",
+        "What are the holidays in the academic calendar?"
+      ],
+      "responses": [
+        "The academic calendar includes important dates such as semester start and end dates, exam periods, and holidays. Students can view the full academic calendar on the college website for detailed information."
+      ]
+    },
+    {
+      "tag": "student_engagement",
+      "patterns": [
+        "How can I get involved in student engagement activities?",
+        "Tell me about student organizations",
+        "What opportunities are there for student leadership?",
+        "How can I participate in campus events?"
+      ],
+      "responses": [
+        "RCE encourages student engagement through various organizations, clubs, and leadership opportunities. Students can join organizations that align with their interests and participate in campus events to enhance their college experience."
+      ]
+    },
+    {
+      "tag": "academic_support_for_international_students",
+      "patterns": [
+        "What academic support is available for international students?",
+        "Tell me about resources for foreign students",
+        "How can I get help with language barriers?",
+        "Are there any special programs for international students?"
+      ],
+      "responses": [
+        "RCE provides academic support specifically for international students, including language assistance, tutoring, and cultural orientation programs. The international office is available to help students navigate their academic journey."
+      ]
+    },
+    {
+      "tag": "financial_aid_application",
+      "patterns": [
+        "How do I apply for financial aid?",
+        "What is the process for scholarships?",
+        "Tell me about deadlines for financial aid applications",
+        "Are there any forms I need to fill out?"
+      ],
+      "responses": [
+        "To apply for financial aid, students should complete the necessary application forms available on the financial aid office's website. It's important to pay attention to deadlines to ensure eligibility for scholarships and grants."
+      ]
+    },
+    {
+      "tag": "academic_resources_for_graduates",
+      "patterns": [
+        "What academic resources are available for graduate students?",
+        "Tell me about support for master's programs",
+        "How can I access research facilities?",
+        "Are there any workshops for graduate students?"
+      ],
+      "responses": [
+        "RCE offers various academic resources for graduate students, including access to research facilities, specialized workshops, and mentoring programs. Graduate students can find more information through their respective departments."
+      ]
+    },
+    {
+      "tag": "student_feedback_mechanism",
+      "patterns": [
+        "How can I provide feedback about my experience?",
+        "Is there a way to share my suggestions?",
+        "Tell me about the student feedback process",
+        "What happens to my feedback?"
+      ],
+      "responses": [
+        "RCE values student feedback and has established mechanisms for collecting it, including surveys and suggestion boxes. Feedback is reviewed by the administration to improve the college experience for all students."
+      ]
+    },
+    {
+      "tag": "academic_integrity_training",
+      "patterns": [
+        "Is there training on academic integrity?",
+        "Tell me about workshops on plagiarism prevention",
+        "How can I learn about academic honesty?",
+        "Are there resources for understanding academic integrity?"
+      ],
+      "responses": [
+        "RCE provides training and workshops on academic integrity, including plagiarism prevention and understanding academic honesty. Students are encouraged to participate in these sessions to ensure they are aware of the standards expected."
+      ]
+    }
+
+
+  ]
+  }
